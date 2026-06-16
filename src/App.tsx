@@ -1,54 +1,32 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
-import { AuthPage } from '@/components/AuthPage';
-import { useAuth } from '@/hooks/AuthContext';
+import { AdminLayout } from '@/components/AdminLayout';
+import { Layout } from '@/components/Layout';
+import { AdminFacilityFormPage } from '@/pages/AdminFacilityFormPage';
+import { AdminPage } from '@/pages/AdminPage';
+import { FacilityDetailPage } from '@/pages/FacilityDetailPage';
 import { HomePage } from '@/pages/HomePage';
-
-function AuthGuard({
-  children,
-  requireAuth,
-}: {
-  children: React.ReactNode;
-  requireAuth: boolean;
-}) {
-  const { isAuthenticated, loading } = useAuth();
-
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-gray-500">Loading...</div>
-      </div>
-    );
-  }
-
-  if (requireAuth && !isAuthenticated) return <Navigate to="/auth" replace />;
-  if (!requireAuth && isAuthenticated) return <Navigate to="/" replace />;
-
-  return <>{children}</>;
-}
+import { NewsPage } from '@/pages/NewsPage';
+import { PrivacyPage } from '@/pages/PrivacyPage';
+import { RecordWaitPage } from '@/pages/RecordWaitPage';
 
 function App() {
   return (
     <BrowserRouter>
-      {/* ensure all new routes require auth */}
       <Routes>
-        <Route
-          path="/auth"
-          element={
-            <AuthGuard requireAuth={false}>
-              <AuthPage />
-            </AuthGuard>
-          }
-        />
-        <Route
-          path="/"
-          element={
-            <AuthGuard requireAuth={true}>
-              <HomePage />
-            </AuthGuard>
-          }
-        />
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route element={<Layout />}>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/facility/:slug" element={<FacilityDetailPage />} />
+          <Route path="/news" element={<NewsPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/admin" element={<AdminLayout />}>
+            <Route index element={<AdminPage />} />
+            <Route path="facility/new" element={<AdminFacilityFormPage />} />
+            <Route path="facility/:id" element={<AdminFacilityFormPage />} />
+            <Route path="facility/:id/wait" element={<RecordWaitPage />} />
+          </Route>
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

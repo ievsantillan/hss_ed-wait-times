@@ -1,0 +1,36 @@
+name: Snapshot wait times
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Snapshot wait times
+        run: node scripts/snapshot.mjs
+      - name: Commit updated wait-history.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain public/wait-history.json)" ]; then
+            git add public/wait-history.json
+            git commit -m "chore: append wait-time snapshot [skip ci]"
+            git push
+          else
+            echo "No snapshot changes to commit."
+          fi

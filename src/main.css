@@ -8,6 +8,13 @@
   --color-blue-500: oklch(0.623 0.214 259.1);
   --color-blue-600: oklch(0.546 0.245 262.9);
   --color-blue-700: oklch(0.488 0.243 264.4);
+
+  /* Health Shared Services brand palette (extracted from the HSS logo). */
+  --color-hss-navy: #001848;
+  --color-hss-green: #6cc018;
+  --color-hss-gray: #54565a;
+  --color-hss-surface: #f5f6f7;
+
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
 }
 

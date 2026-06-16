@@ -1,3 +1,9 @@
-export type BlankAppSchema = {};
+import { Facility } from './Facility.js';
+import { WaitReading } from './WaitReading.js';
 
-export const schema = [];
+export type AppSchema = {
+  Facility: Facility;
+  WaitReading: WaitReading;
+};
+
+export const schema = [Facility, WaitReading];
