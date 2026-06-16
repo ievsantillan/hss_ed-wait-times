@@ -11,7 +11,7 @@
 
   /* Health Shared Services brand palette (extracted from the HSS logo). */
   --color-hss-navy: #001848;
-  --color-hss-green: #6cc018;
+  --color-hss-green: #467f0f;
   --color-hss-gray: #54565a;
   --color-hss-surface: #f5f6f7;
 
@@ -31,5 +31,18 @@
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+      scroll-behavior: auto !important;
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+    }
   }
 }

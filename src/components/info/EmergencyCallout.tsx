@@ -1,36 +1,38 @@
-import { LIFE_THREATENING } from '../../content/ahs-content';
+import { useTranslation } from 'react-i18next';
 
 interface EmergencyCalloutProps {
   className?: string;
 }
 
 export function EmergencyCallout({ className = '' }: EmergencyCalloutProps) {
+  const { t } = useTranslation();
+
   return (
     <section
       aria-labelledby="emergency-callout-heading"
       className={`rounded-xl border border-red-200 bg-red-50 p-5 text-slate-900 shadow-sm ${className}`}
     >
       <h2 id="emergency-callout-heading" className="text-lg font-semibold text-hss-navy">
-        Life-threatening emergencies
+        {t('content.emergency.heading')}
       </h2>
       <p className="mt-2 text-base leading-7">
-        {LIFE_THREATENING.textBeforePhone}
+        {t('content.emergency.textBeforePhone')}
         <a
           className="font-bold text-hss-navy underline decoration-hss-green decoration-2 underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hss-green"
-          href={LIFE_THREATENING.phoneUrl}
+          href={t('content.emergency.phoneUrl')}
         >
-          {LIFE_THREATENING.phoneLabel}
+          {t('content.emergency.phoneLabel')}
         </a>
-        {LIFE_THREATENING.textAfterPhone}
+        {t('content.emergency.textAfterPhone')}
         <a
           className="font-semibold text-hss-navy underline decoration-hss-green decoration-2 underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hss-green"
-          href={LIFE_THREATENING.link.url}
+          href={t('content.emergency.linkUrl')}
           rel="noopener noreferrer"
           target="_blank"
         >
-          {LIFE_THREATENING.link.label}
+          {t('content.emergency.linkLabel')}
         </a>
-        {LIFE_THREATENING.textAfterLink}
+        {t('content.emergency.textAfterLink')}
       </p>
     </section>
   );

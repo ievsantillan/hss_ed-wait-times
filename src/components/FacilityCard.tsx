@@ -1,8 +1,10 @@
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
+import { ShareButton } from '@/components/ShareButton';
 import { WaitBadge } from '@/components/WaitBadge';
 import { regionName } from '@/content/regions';
-import { formatDistance } from '@/lib/geo';
+import { categoryLabel, localizedDistance } from '@/i18n/helpers';
 import { facilitySlug } from '@/lib/slug';
 import type { MergedFacility } from '@/lib/merge';
 
@@ -19,34 +21,37 @@ export function FacilityCard({
   isFavourite,
   onToggleFavourite,
 }: FacilityCardProps) {
+  const { t } = useTranslation();
+  const favouriteLabel = isFavourite ? t('facility.removeFavourite') : t('facility.addFavourite');
+
   return (
     <article className="rounded-lg bg-white p-4 shadow-sm ring-1 ring-gray-200">
-      <div className="flex items-start justify-between gap-3">
-        <div className="min-w-0">
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+        <div className="min-w-0 break-words">
           <h3 className="font-semibold text-hss-navy">
             <Link
               to={`/facility/${facilitySlug(facility.key)}`}
-              className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-hss-green rounded"
+              className="rounded hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-hss-green focus-visible:ring-offset-2"
             >
               {facility.name}
             </Link>
           </h3>
           <p className="mt-0.5 text-xs text-hss-gray">
-            {regionName(facility.region)} · {facility.category}
+            {regionName(facility.region)} · {categoryLabel(t, facility.category)}
             {distanceKm != null && (
-              <span className="ml-1 text-hss-navy font-medium">· {formatDistance(distanceKm)} away</span>
+              <span className="ml-1 text-hss-navy font-medium">· {localizedDistance(t, distanceKm)}</span>
             )}
           </p>
         </div>
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex shrink-0 items-center gap-2">
           <WaitBadge facility={facility} />
           <button
             type="button"
             onClick={() => onToggleFavourite(facility.key)}
             aria-pressed={isFavourite}
-            aria-label={isFavourite ? 'Remove from favourites' : 'Add to favourites'}
-            className="rounded p-1 text-lg leading-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-hss-green"
-            title={isFavourite ? 'Remove from favourites' : 'Add to favourites'}
+            aria-label={favouriteLabel}
+            className="inline-flex min-h-11 min-w-11 items-center justify-center rounded text-lg leading-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-hss-green focus-visible:ring-offset-2"
+            title={favouriteLabel}
           >
             <span aria-hidden="true" className={isFavourite ? 'text-hss-green' : 'text-gray-300'}>
               {isFavourite ? '★' : '☆'}
@@ -57,15 +62,15 @@ export function FacilityCard({
 
       {facility.note && <p className="mt-2 text-sm text-hss-gray">{facility.note}</p>}
 
-      <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
+      <div className="mt-3 flex flex-wrap items-start gap-x-2 gap-y-2 text-sm">
         {facility.mapUrl && (
           <a
             href={facility.mapUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-hss-navy hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-hss-green rounded"
+            className="inline-flex min-h-11 items-center rounded px-2 text-hss-navy hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-hss-green focus-visible:ring-offset-2"
           >
-            Directions
+            {t('common.links.directions')}
           </a>
         )}
         {facility.infoUrl && (
@@ -73,14 +78,15 @@ export function FacilityCard({
             href={facility.infoUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-hss-navy hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-hss-green rounded"
+            className="inline-flex min-h-11 items-center rounded px-2 text-hss-navy hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-hss-green focus-visible:ring-offset-2"
           >
-            Site information
+            {t('common.links.siteInformation')}
           </a>
         )}
+        <ShareButton facility={facility} className="px-2" />
         {facility.overridden && (
-          <span className="text-xs text-hss-green font-medium" title="Updated by HSS staff">
-            Locally updated
+          <span className="pt-3 text-xs font-medium text-hss-navy" title={t('common.status.updatedByStaff')}>
+            {t('common.status.locallyUpdated')}
           </span>
         )}
       </div>

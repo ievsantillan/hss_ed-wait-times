@@ -1,6 +1,7 @@
-import { formatUpdatedAt } from '@/lib/ahsTransform';
+import { useTranslation } from 'react-i18next';
 
-/** "Jun 16, 2:59 pm (updated every two minutes)" — matches the AHS last-updated line. */
+import { formatUpdatedAtForLocale } from '@/i18n/format';
+
 export function LastUpdated({
   fetchedAt,
   stale,
@@ -8,14 +9,18 @@ export function LastUpdated({
   fetchedAt: Date | null;
   stale?: boolean;
 }) {
+  const { i18n, t } = useTranslation();
   if (!fetchedAt) return null;
   return (
-    <p className="text-sm text-hss-gray" aria-live="polite">
-      <span className="font-medium text-hss-navy">{formatUpdatedAt(fetchedAt)}</span>{' '}
-      (updated every two minutes)
-      {stale && (
-        <span className="ml-2 text-amber-700">· could not refresh, showing last known data</span>
-      )}
+    <p className="flex flex-col gap-1 text-sm text-hss-gray sm:flex-row sm:flex-wrap sm:items-center" aria-live="polite">
+      <span>
+        {t('lastUpdated.label')}{' '}
+        <span className="font-medium text-hss-navy">
+          {formatUpdatedAtForLocale(fetchedAt, i18n.resolvedLanguage || i18n.language)}
+        </span>
+      </span>
+      <span>{t('lastUpdated.frequency')}</span>
+      {stale && <span className="font-medium text-amber-700">{t('lastUpdated.stale')}</span>}
     </p>
   );
 }

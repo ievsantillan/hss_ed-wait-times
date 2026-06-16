@@ -23,7 +23,7 @@ export function useGeolocation(): UseGeolocation {
   const [error, setError] = useState<string | null>(null);
 
   const request = useCallback(() => {
-    if (!('geolocation' in navigator)) {
+    if (typeof navigator === 'undefined' || !('geolocation' in navigator)) {
       setError('Location is not available in this browser.');
       return;
     }

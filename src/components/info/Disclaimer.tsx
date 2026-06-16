@@ -1,35 +1,37 @@
-import { ATTRIBUTION, DISCLAIMER } from '../../content/ahs-content';
+import { useTranslation } from 'react-i18next';
 
 interface DisclaimerProps {
   className?: string;
 }
 
 export function Disclaimer({ className = '' }: DisclaimerProps) {
+  const { t } = useTranslation();
+
   return (
     <footer
-      aria-label="Wait times disclaimer"
+      aria-label={t('content.disclaimer.ariaLabel')}
       className={`border-t border-slate-200 bg-slate-50 px-4 py-6 text-sm text-hss-gray ${className}`}
     >
       <div className="mx-auto max-w-6xl space-y-3">
-        <p>{ATTRIBUTION}</p>
+        <p>{t('content.disclaimer.attribution')}</p>
         <p className="leading-6">
-          {DISCLAIMER.textBeforeFeedbackLink}
+          {t('content.disclaimer.textBeforeFeedbackLink')}
           <a
             className="font-semibold text-hss-navy underline decoration-hss-green decoration-2 underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hss-green"
-            href={DISCLAIMER.feedbackLink.url}
+            href={t('content.disclaimer.feedbackUrl')}
             rel="noopener noreferrer"
             target="_blank"
           >
-            {DISCLAIMER.feedbackLink.label}
+            {t('content.disclaimer.feedbackLabel')}
           </a>
-          {DISCLAIMER.textBeforeEmail}
+          {t('content.disclaimer.textBeforeEmail')}
           <a
-            className="font-semibold text-hss-navy underline decoration-hss-green decoration-2 underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hss-green"
-            href={DISCLAIMER.emailUrl}
+            className="font-semibold text-hss-navy underline decoration-hss-green decoration-2 underline-offset-4 focus-visible:outline-2 focus-visible:outline-hss-green"
+            href={t('content.disclaimer.emailUrl')}
           >
-            {DISCLAIMER.emailLabel}
+            {t('content.disclaimer.emailLabel')}
           </a>
-          {DISCLAIMER.textAfterEmail}
+          {t('content.disclaimer.textAfterEmail')}
         </p>
       </div>
     </footer>
