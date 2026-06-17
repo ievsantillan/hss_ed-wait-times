@@ -2,9 +2,8 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 import { ShareButton } from '@/components/ShareButton';
-import { WaitBadge } from '@/components/WaitBadge';
 import { regionName } from '@/content/regions';
-import { categoryLabel, localizedDistance } from '@/i18n/helpers';
+import { categoryLabel, formatWaitMinutesLabel, localizedDistance } from '@/i18n/helpers';
 import { facilitySlug } from '@/lib/slug';
 import type { MergedFacility } from '@/lib/merge';
 
@@ -24,11 +23,21 @@ export function FacilityCard({
   const { t } = useTranslation();
   const favouriteLabel = isFavourite ? t('facility.removeFavourite') : t('facility.addFavourite');
 
+  const status = { unavailable: facility.unavailable || facility.waitMinutes == null };
+  const waitText = status.unavailable 
+    ? t('common.wait.unavailable')
+    : formatWaitMinutesLabel(t, facility.waitMinutes!);
+
   return (
-    <article className="rounded-lg bg-white p-4 shadow-sm ring-1 ring-gray-200">
+    <article className="rounded-lg bg-white p-5 shadow-sm ring-1 ring-gray-200 border-l-4 border-hss-green">
+      <div className="mb-3">
+        <div className="text-3xl font-bold text-hss-navy leading-tight">
+          {waitText}
+        </div>
+      </div>
       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
         <div className="min-w-0 break-words">
-          <h3 className="font-semibold text-hss-navy">
+          <h3 className="font-semibold text-hss-navy text-lg">
             <Link
               to={`/facility/${facilitySlug(facility.key)}`}
               className="rounded hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-hss-green focus-visible:ring-offset-2"
@@ -36,6 +45,9 @@ export function FacilityCard({
               {facility.name}
             </Link>
           </h3>
+          <p className="mt-1 text-sm text-hss-gray">
+            {t('common.open24Hours')}
+          </p>
           <p className="mt-0.5 text-xs text-hss-gray">
             {regionName(facility.region)} · {categoryLabel(t, facility.category)}
             {distanceKm != null && (
@@ -44,7 +56,6 @@ export function FacilityCard({
           </p>
         </div>
         <div className="flex shrink-0 items-center gap-2">
-          <WaitBadge facility={facility} />
           <button
             type="button"
             onClick={() => onToggleFavourite(facility.key)}

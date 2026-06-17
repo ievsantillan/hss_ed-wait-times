@@ -34,6 +34,7 @@ const en = {
       locallyUpdated: 'Locally updated',
       updatedByStaff: 'Updated by HSS staff',
     },
+    open24Hours: 'Open 24 hours',
     wait: {
       unavailable: 'Unavailable',
       minutes: '{{hours}} hr {{minutes}} min',

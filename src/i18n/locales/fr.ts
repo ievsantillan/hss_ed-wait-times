@@ -36,6 +36,7 @@ const fr: TranslationResource = {
       locallyUpdated: 'Mis à jour localement',
       updatedByStaff: 'Mis à jour par le personnel HSS',
     },
+    open24Hours: 'Ouvert 24 heures',
     wait: {
       unavailable: 'Non disponible',
       minutes: '{{hours}} h {{minutes}} min',
