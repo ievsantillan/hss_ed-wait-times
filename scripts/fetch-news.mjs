@@ -6,18 +6,35 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = resolve(__dirname, '..', 'public', 'news.json');
 
 const REGIONS = [
-  { code: 'Calgary', query: 'Calgary emergency room wait' },
-  { code: 'Edmonton', query: 'Edmonton emergency wait' },
-  { code: 'RedDeer', query: 'Red Deer hospital emergency' },
-  { code: 'Lethbridge', query: 'Lethbridge emergency department' },
-  { code: 'MedicineHat', query: 'Medicine Hat ER wait' },
-  { code: 'GrandePrairie', query: 'Grande Prairie emergency wait' },
-  { code: 'FortMcMurray', query: 'Fort McMurray hospital emergency' },
+  { code: 'Calgary', query: 'Calgary Alberta emergency room wait OR hospital' },
+  { code: 'Edmonton', query: 'Edmonton Alberta emergency wait OR hospital' },
+  { code: 'RedDeer', query: 'Red Deer Alberta hospital emergency' },
+  { code: 'Lethbridge', query: 'Lethbridge Alberta emergency department' },
+  { code: 'MedicineHat', query: 'Medicine Hat Alberta ER wait OR hospital' },
+  { code: 'GrandePrairie', query: 'Grande Prairie Alberta emergency wait OR hospital' },
+  { code: 'FortMcMurray', query: 'Fort McMurray Alberta hospital emergency' },
 ];
 
 const MAX_ITEMS_PER_REGION = 6;
 const MAX_TOTAL = 80;
 const GOOGLE_NEWS_URL = 'https://news.google.com/rss/search';
+
+// Cities/regions to exclude (non-Alberta)
+const EXCLUDE_PATTERNS = [
+  /\bOttawa\b/i,
+  /\bToronto\b/i,
+  /\bVancouver\b/i,
+  /\bMontreal\b/i,
+  /\bQuebec\b/i,
+  /\bWinnipeg\b/i,
+  /\bHalifax\b/i,
+  /\bSaskatchewan\b/i,
+  /\bRegina\b/i,
+  /\bSaskatoon\b/i,
+  /\bBritish Columbia\b/i,
+  /\bOntario\b/i,
+  /\bManitoba\b/i,
+];
 
 function decodeEntities(input) {
   return input
@@ -97,11 +114,17 @@ function slugId(region, url) {
   return `${region}:${url}`.slice(0, 200);
 }
 
+function shouldExclude(item) {
+  const text = `${item.title} ${item.snippet || ''}`;
+  return EXCLUDE_PATTERNS.some((pattern) => pattern.test(text));
+}
+
 async function main() {
   const fetchedAt = new Date().toISOString();
   const byUrl = new Map();
 
   let fetched = 0;
+  let filtered = 0;
   let failed = 0;
 
   for (const region of REGIONS) {
@@ -111,6 +134,10 @@ async function main() {
       for (const item of items) {
         const url = trimForField(item.url, 1000);
         if (byUrl.has(url)) continue;
+        if (shouldExclude(item)) {
+          filtered += 1;
+          continue;
+        }
         byUrl.set(url, {
           id: slugId(region.code, url),
           title: trimForField(item.title, 300),
@@ -138,7 +165,7 @@ async function main() {
 
   await writeFile(OUTPUT_PATH, `${JSON.stringify(articles, null, 2)}\n`, 'utf8');
   console.log(
-    `News written to public/news.json: ${articles.length} articles (${fetched} fetched, ${failed} regions failed).`,
+    `News written to public/news.json: ${articles.length} articles (${fetched} fetched, ${filtered} filtered out, ${failed} regions failed).`,
   );
 }
 
