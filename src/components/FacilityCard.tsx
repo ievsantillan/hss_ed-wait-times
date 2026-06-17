@@ -45,9 +45,6 @@ export function FacilityCard({
               {facility.name}
             </Link>
           </h3>
-          <p className="mt-1 text-sm text-hss-gray">
-            {t('common.open24Hours')}
-          </p>
           <p className="mt-0.5 text-xs text-hss-gray">
             {regionName(facility.region)} · {categoryLabel(t, facility.category)}
             {distanceKm != null && (
