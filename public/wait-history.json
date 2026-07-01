@@ -1019,6 +1019,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 31
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 30
     }
   ],
   "c81e728d9d4c2f636f067f89cc14862c:Foothills Medical Centre:Emergency": [
@@ -2041,6 +2045,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 399
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 344
     }
   ],
   "eccbc87e4b5ce2fe28308fd9f2a7baf3:Peter Lougheed Centre:Emergency": [
@@ -3063,6 +3071,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 155
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 163
     }
   ],
   "c4ca4238a0b923820dcc509a6f75849b:Rockyview General Hospital:Emergency": [
@@ -4085,6 +4097,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 261
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 207
     }
   ],
   ":South Health Campus Children:Emergency Departments": [
@@ -5661,6 +5677,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 320
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 237
     }
   ],
   "8e296a067a37563370ded05f5a3bf3ec:Airdrie Community Health Centre:Urgent Care": [
@@ -6683,6 +6703,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 157
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 112
     }
   ],
   "4e732ced3463d06de0ca9a15b6153677:Cochrane Community Health Centre:Urgent Care": [
@@ -7705,6 +7729,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": null
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 105
     }
   ],
   "6ea9ab1baa0efb9e19094440c317e21b:Okotoks Health and Wellness Centre:Urgent Care": [
@@ -8727,6 +8755,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": null
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 81
     }
   ],
   "1679091c5a880faf6fb5e6087eb1b2dc:Sheldon M. Chumir Centre:Urgent Care": [
@@ -9749,6 +9781,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 195
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 119
     }
   ],
   "e4da3b7fbbce2345d7772b0674a318d5:South Calgary Health Centre:Urgent Care": [
@@ -10771,6 +10807,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": null
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 140
     }
   ],
   "1ff1de774005f8da13f42943881c655f:Devon General Hospital:Emergency": [
@@ -11793,6 +11833,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 63
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 94
     }
   ],
   "70efdf2ec9b086079795c442636b55fb:Fort Sask Community Hospital:Emergency": [
@@ -12815,6 +12859,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 204
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 146
     }
   ],
   "6512bd43d9caa6e02c990b0a82652dca:Grey Nuns Community Hospital:Emergency": [
@@ -13837,6 +13885,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 163
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 156
     }
   ],
   "45c48cce2e2d7fbdea1afc51c7c6ad26:Leduc Community Hospital:Emergency": [
@@ -14859,6 +14911,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 79
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 99
     }
   ],
   "aab3238922bcc25a6f606eb525ffdc56:Misericordia Community Hospital:Emergency": [
@@ -15881,6 +15937,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 410
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 386
     }
   ],
   "c20ad4d76fe97759aa27a0c99bff6710:Northeast Community Health Centre:Emergency": [
@@ -16903,6 +16963,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 336
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 232
     }
   ],
   "d3d9446802a44259755d38e6d163e820:Royal Alexandra Hospital:Emergency": [
@@ -17925,6 +17989,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 201
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 160
     }
   ],
   "9bf31c7ff062936a96d3c8bd1f8f2ff3:Stollery Children's Hospital:Emergency": [
@@ -18947,6 +19015,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 86
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 51
     }
   ],
   "b6d767d2f8ed5d21a44b0e5886680cb9:Strathcona Community Hospital:Emergency": [
@@ -19969,6 +20041,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 223
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 202
     }
   ],
   "c51ce410c124a10e0db5e4b97fc2af39:Sturgeon Community Hospital:Emergency": [
@@ -20991,6 +21067,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 326
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 261
     }
   ],
   "c9f0f895fb98ab9159f51fd0297e236d:University of Alberta Hospital:Emergency": [
@@ -22013,6 +22093,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 212
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 172
     }
   ],
   "8f14e45fceea167a5a36dedd4bea2543:WestView Health Centre:Emergency": [
@@ -23035,6 +23119,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 182
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 145
     }
   ],
   "1f0e3dad99908345f7439f8ffabdffc4:Red Deer Regional Hospital:Emergency": [
@@ -24057,6 +24145,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 152
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 127
     }
   ],
   "274ad4786c3abca69fa097b85867d9a4:Innisfail Health Centre:Emergency": [
@@ -25078,6 +25170,10 @@
     },
     {
       "t": "2026-07-01T13:47:00.672Z",
+      "m": null
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
       "m": null
     }
   ],
@@ -26101,6 +26197,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": null
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": null
     }
   ],
   "6f4922f45568161a8cdf4ad2299f6d23:Chinook Regional Hospital:Emergency": [
@@ -27123,6 +27223,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 45
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 40
     }
   ],
   "98f13708210194c475687be6106a3b84:Medicine Hat Regional Hospital:Emergency": [
@@ -28145,6 +28249,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 45
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 37
     }
   ],
   "3c59dc048e8850243be8079a5c74d079:Grande Prairie Regional Hospital:Emergency": [
@@ -29167,6 +29275,10 @@
     {
       "t": "2026-07-01T13:47:00.672Z",
       "m": 41
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
+      "m": 56
     }
   ],
   "33e75ff09dd601bbe69f351039152189:Northern Lights Regional Health Centre:Emergency": [
@@ -30188,6 +30300,10 @@
     },
     {
       "t": "2026-07-01T13:47:00.672Z",
+      "m": 33
+    },
+    {
+      "t": "2026-07-01T14:58:12.697Z",
       "m": 33
     }
   ]
