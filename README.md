@@ -1,6 +1,6 @@
 # HSS Emergency Department Wait Times
 
-HSS Emergency Department Wait Times is a public, live emergency department wait-times app for Alberta. It refreshes every 2 minutes from the Alberta Health Services feed, uses Health Shared Services branding, and is built on Rayfin with Microsoft Fabric.
+HSS (Health Shared Services) Emergency Department Wait Times is a public, live emergency department wait-times app for Alberta. It refreshes every 2 minutes from the Alberta Health Services feed, uses HSS branding, and is built on Rayfin with Microsoft Fabric.
 
 ## Disclaimer
 

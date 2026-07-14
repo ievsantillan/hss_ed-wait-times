@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented in this file.
 
+## v0.1.1 - July 14, 2026
+
+**Clarify the HSS acronym**
+
+- Define HSS (Health Shared Services) on first use in the README, the architecture doc
+  heading, and the app privacy notice intro (EN and FR).
+
 ## v0.1.0 - July 14, 2026
 
 **Architecture diagram moves to D2; contributor workflow docs**

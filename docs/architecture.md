@@ -1,4 +1,4 @@
-# HSS ED Wait Times - Architecture
+# Health Shared Services (HSS) ED Wait Times - Architecture
 
 > Living document. When the architecture changes (a new data flow, source, entity,
 > service, or refresh cadence), edit [`architecture.d2`](./architecture.d2) and run
