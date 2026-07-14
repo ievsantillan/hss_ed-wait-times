@@ -128,7 +128,7 @@ const en = {
   privacy: {
     eyebrow: 'Privacy and accessibility',
     title: 'Privacy notice',
-    intro: 'HSS Emergency Department Wait Times is a fully public information service. It does not use user accounts, authentication, advertising, or third-party analytics and tracking by default.',
+    intro: 'HSS (Health Shared Services) Emergency Department Wait Times is a fully public information service. It does not use user accounts, authentication, advertising, or third-party analytics and tracking by default.',
     dataHeading: 'How this app uses data',
     geolocationHeading: 'Geolocation',
     geolocationBodyBefore: 'If you tap ',

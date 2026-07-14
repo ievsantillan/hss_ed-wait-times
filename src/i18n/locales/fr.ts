@@ -130,7 +130,7 @@ const fr: TranslationResource = {
   privacy: {
     eyebrow: 'Confidentialité et accessibilité',
     title: 'Avis de confidentialité',
-    intro: 'HSS Emergency Department Wait Times est un service d’information entièrement public. Par défaut, il n’utilise pas de comptes d’utilisateur, d’authentification, de publicité, ni d’analyses ou de suivi par des tiers.',
+    intro: 'HSS (Health Shared Services) Emergency Department Wait Times est un service d’information entièrement public. Par défaut, il n’utilise pas de comptes d’utilisateur, d’authentification, de publicité, ni d’analyses ou de suivi par des tiers.',
     dataHeading: 'Utilisation des données par cette application',
     geolocationHeading: 'Géolocalisation',
     geolocationBodyBefore: 'Si vous touchez ',
