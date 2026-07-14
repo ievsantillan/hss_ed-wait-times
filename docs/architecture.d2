@@ -1,0 +1,74 @@
+# HSS ED Wait Times - System architecture (source of truth for the diagram)
+#
+# This is the editable source. After changing it, regenerate the committed SVG:
+#   npm run docs:diagram
+# or directly:
+#   d2 --layout elk --theme 0 docs/architecture.d2 docs/architecture.svg
+#
+# See memories/repo/workflow.md for install and regenerate notes.
+
+direction: down
+
+browser: Browser - HSS-branded React/Vite SPA (PWA, i18n EN/FR) {
+  ui: Public UI\nHome list, Facility detail + trend,\nNews + region filter, status flags,\nfavourites, share, click-to-call\nWCAG AA, HSS theme
+  geo: Geolocation\nnearest open ED (Haversine)
+  live: useLiveWaitTimes() hook\npolls every 2 min, pauses when tab hidden
+  merge: Merge\nlive AHS base + static overrides /\nnon-AHS facilities
+  newsui: NewsSection / /news\nreads static /news.json
+  trendui: Facility detail trend\nreads static /wait-history.json
+  admin: Admin CRUD\nFabric sign-in required
+
+  ui -> geo -> ui
+  ui -> live -> merge -> ui
+  ui -> newsui
+  ui -> trendui
+  ui -> admin
+}
+
+ahs: Alberta Health Services (external) {
+  api: Wait Times API\n/Webapps/WaitTimes/api/waittimes/en\nCORS ACAO *, no-cache
+}
+
+static: Static files (served from dist) {
+  news: /news.json {shape: page}
+  hist: /wait-history.json {shape: page}
+  over: /overrides.json {shape: page}
+}
+
+rayfin: Rayfin on Microsoft Fabric (BaaS) {
+  auth: Fabric SSO (Entra ID)
+  data: Data API (DAB / GraphQL)\nFacility, WaitReading\nrole: authenticated
+  sql: Fabric SQL (mssql) {shape: cylinder}
+  hosting: Static hosting (dist)
+  data -- sql
+}
+
+newssrc: News sources (external) {
+  gnews: Google News RSS\nper-region query
+}
+
+ci: GitHub Actions (scheduled) {
+  newsjob: fetch-news.mjs - DAILY\nper-region queries, dedupe by URL,\nwrites news.json
+  snapjob: snapshot.mjs - HOURLY\nappends wait-history.json (per facility key)
+  seedjob: seed.mjs\ncatalog bootstrap, on demand, authenticated
+}
+
+# Cross-group data flows
+browser.live -> ahs.api: GET every 2 min
+browser.merge -> static.over: read
+browser.newsui -> static.news: read
+browser.trendui -> static.hist: read
+
+browser.ui -> rayfin.hosting: served by {style.stroke-dash: 3}
+static.news -> rayfin.hosting: served by {style.stroke-dash: 3}
+static.hist -> rayfin.hosting: served by {style.stroke-dash: 3}
+static.over -> rayfin.hosting: served by {style.stroke-dash: 3}
+
+browser.admin -> rayfin.auth: sign in
+browser.admin -> rayfin.data: create/edit facility + wait
+
+ci.newsjob -> newssrc.gnews: fetch daily
+ci.newsjob -> static.news: commit news.json
+ci.snapjob -> ahs.api: read AHS
+ci.snapjob -> static.hist: commit wait-history.json
+ci.seedjob -> rayfin.data: upsert Facility
