@@ -1,7 +1,8 @@
-# HSS ED Wait Times — Architecture
+# HSS ED Wait Times - Architecture
 
-> Living document. Update this diagram whenever the architecture changes
-> (a new data flow, source, entity, service, or refresh cadence).
+> Living document. When the architecture changes (a new data flow, source, entity,
+> service, or refresh cadence), edit [`architecture.d2`](./architecture.d2) and run
+> `npm run docs:diagram` to regenerate `architecture.svg`.
 
 ## Access model (hybrid)
 
@@ -24,69 +25,10 @@ AHS API key → display name:
 
 ## System diagram
 
-```mermaid
-flowchart TB
-    subgraph Browser["Browser — HSS-branded React/Vite SPA (PWA, i18n EN/FR)"]
-        UI["Public UI: Home list, Facility detail+trend, News + region filter<br/>Status flags, favourites, share, click-to-call · WCAG AA · HSS theme"]
-        GEO["Geolocation → nearest open ED (Haversine)"]
-        LIVE["useLiveWaitTimes() hook<br/>polls every 2 min · pauses when tab hidden"]
-        MERGE["Merge: live AHS base + static overrides / non-AHS facilities"]
-        NEWSUI["NewsSection / /news (reads static /news.json)"]
-        TRENDUI["Facility detail trend (reads static /wait-history.json)"]
-        ADMIN["Admin CRUD (Fabric sign-in required)"]
-        UI --> GEO --> UI
-        UI --> LIVE --> MERGE --> UI
-        UI --> NEWSUI
-        UI --> TRENDUI
-        UI --> ADMIN
-    end
+![HSS ED Wait Times system architecture](./architecture.svg)
 
-    subgraph AHS["Alberta Health Services (external)"]
-        AHSAPI["Wait Times API<br/>/Webapps/WaitTimes/api/waittimes/en<br/>CORS: ACAO * , no-cache"]
-    end
-
-    subgraph Static["Static files (served from dist, public)"]
-        NEWSJSON["/news.json"]
-        HISTJSON["/wait-history.json"]
-        OVERJSON["/overrides.json"]
-    end
-
-    subgraph Rayfin["Rayfin on Microsoft Fabric (BaaS)"]
-        AUTHSVC["Fabric SSO (Entra ID)"]
-        DATA["Data API (DAB / GraphQL)<br/>Facility, WaitReading<br/>role: authenticated *"]
-        SQL[("Fabric SQL (mssql)")]
-        STATIC["Static hosting (dist)"]
-        DATA --- SQL
-    end
-
-    subgraph NewsSrc["News sources (external)"]
-        GNEWS["Google News RSS (per-region query)"]
-    end
-
-    subgraph CI["GitHub Actions (scheduled)"]
-        NEWSJOB["scripts/fetch-news.mjs — DAILY<br/>per-region queries, dedupe by URL, writes news.json"]
-        SNAPJOB["scripts/snapshot.mjs — HOURLY<br/>appends wait-history.json (per facility key)"]
-        SEEDJOB["scripts/seed.mjs (catalog bootstrap, on demand, authenticated)"]
-    end
-
-    LIVE -->|"GET every 2 min"| AHSAPI
-    MERGE -->|read| OVERJSON
-    NEWSUI -->|read| NEWSJSON
-    TRENDUI -->|read| HISTJSON
-    UI -.served by.-> STATIC
-    NEWSJSON -.served by.-> STATIC
-    HISTJSON -.served by.-> STATIC
-    OVERJSON -.served by.-> STATIC
-
-    ADMIN -->|sign in| AUTHSVC
-    ADMIN -->|create/edit facility + wait| DATA
-
-    NEWSJOB -->|fetch daily| GNEWS
-    NEWSJOB -->|commit news.json| STATIC
-    SNAPJOB -->|read AHS| AHSAPI
-    SNAPJOB -->|commit wait-history.json| STATIC
-    SEEDJOB -->|upsert Facility| DATA
-```
+> Diagram source: [`architecture.d2`](./architecture.d2) (D2). Do not hand-edit the SVG.
+> After changing the `.d2`, regenerate the SVG with `npm run docs:diagram`.
 
 ## Data flow summary
 

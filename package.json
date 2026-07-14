@@ -1,7 +1,7 @@
 {
   "name": "ed-wait-times",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "description": "Public, live Emergency Department wait-times app for Alberta hospitals. Refreshes every two minutes from the Alberta Health Services feed. Health Shared Services branded, built on Rayfin and Microsoft Fabric.",
   "template": {
@@ -21,7 +21,8 @@
     "rayfin:up": "rayfin up",
     "seed": "node scripts/seed.mjs",
     "news": "node scripts/fetch-news.mjs",
-    "snapshot": "node scripts/snapshot.mjs"
+    "snapshot": "node scripts/snapshot.mjs",
+    "docs:diagram": "d2 --layout elk --theme 0 docs/architecture.d2 docs/architecture.svg"
   },
   "dependencies": {
     "@microsoft/rayfin-auth-provider-fabric": "^1.33.2",
