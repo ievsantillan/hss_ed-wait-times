@@ -4,6 +4,8 @@ HSS (Health Shared Services) Emergency Department Wait Times is a public, live e
 
 **Live demo:** https://hazy-rain-6def4839b7-westcentralus.webapp.msit.fabricapps.net/
 
+**Demo video:** [demo/hss-ed-demo.mp4](demo/hss-ed-demo.mp4) (~2 min walkthrough of the end-user experience)
+
 ## Problem statement
 
 When someone needs emergency care, they rarely know which nearby emergency department (ED) has the shortest wait, whether it is even open, or how busy it is right now. That uncertainty leads to longer waits, uneven load across hospitals, and avoidable stress at the worst possible time. Alberta Health Services (AHS) publishes live ED wait times, but the raw feed is not presented in a fast, mobile-friendly, accessible, bilingual way that a patient or caregiver can act on in the moment.

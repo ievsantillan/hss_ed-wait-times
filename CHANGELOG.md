@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented in this file.
 
+## v0.1.3 - July 14, 2026
+
+**Demo video**
+
+- Add a ~2 minute end-user walkthrough video (`demo/hss-ed-demo.mp4`) and link it
+  from the README.
+
 ## v0.1.2 - July 14, 2026
 
 **Hackathon-ready README**
