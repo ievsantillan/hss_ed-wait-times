@@ -2,6 +2,15 @@
 
 All notable changes to this project are documented in this file.
 
+## v0.1.2 - July 14, 2026
+
+**Hackathon-ready README**
+
+- Add explicit Problem statement, Target users, and What we built sections.
+- Rename Architecture to Solution architecture and embed the diagram
+  (`docs/architecture.svg`).
+- Add the live demo link.
+
 ## v0.1.1 - July 14, 2026
 
 **Clarify the HSS acronym**
