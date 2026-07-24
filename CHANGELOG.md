@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented in this file.
 
+## v0.1.4 - July 24, 2026
+
+**Snapshot workflow resilience**
+
+- Add `timeout-minutes: 10` to the `snapshot` job in `.github/workflows/snapshot.yml`
+  so the hourly run fails fast if a GitHub-hosted runner cannot be acquired, instead
+  of hanging for ~15 minutes.
+
 ## v0.1.3 - July 14, 2026
 
 **Demo video**
