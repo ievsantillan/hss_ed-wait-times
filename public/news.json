@@ -1,53 +1,43 @@
 [
   {
-    "id": "RedDeer:https://news.google.com/rss/articles/CBMiogFBVV95cUxOUmlFMUJTbVo5LXRpeUlNQWlnU3JodW1WcUVULU16LTFWWGtDWnB3QUxWZlNiYzdILW1vSzRzZExDSWhLeXJNaUZaTnFTUUhXZHpTZG1PRzRlRC1FeS1BT25XZTc1TTRJZVQ0ZnVHN3d",
-    "title": "Severity of summer-related injuries likely on the rise in Alberta - Ponoka News",
-    "source": "Ponoka News",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUmlFMUJTbVo5LXRpeUlNQWlnU3JodW1WcUVULU16LTFWWGtDWnB3QUxWZlNiYzdILW1vSzRzZExDSWhLeXJNaUZaTnFTUUhXZHpTZG1PRzRlRC1FeS1BT25XZTc1TTRJZVQ0ZnVHN3duSGdTc1VWaFVKeWdYV0x6amUtNnJ3em4zbWJDcTJlQmZaOUp6YjNYVENpWGoxRFNkX3c?oc=5",
-    "snippet": "Severity of summer-related injuries likely on the rise in Alberta Ponoka News",
-    "publishedAt": "2026-07-16T23:47:54.000Z",
-    "region": "RedDeer",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
-  },
-  {
-    "id": "GrandePrairie:https://news.google.com/rss/articles/CBMiU0FVX3lxTFBDc05idVlNbjFUMWp3bWtSbGVDTVFDOUJfMTJFNHpHV3hoSHhDN2hkNG93eks1UXNkNUwwV3Q3MjBzbWRLdHRUSkpmVzJCeHF1UGdZ?oc=5",
-    "title": "Families demand answers after hospital sterilization failure as AHS says there was no risk to patients - Edmonton Journal",
-    "source": "Edmonton Journal",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBDc05idVlNbjFUMWp3bWtSbGVDTVFDOUJfMTJFNHpHV3hoSHhDN2hkNG93eks1UXNkNUwwV3Q3MjBzbWRLdHRUSkpmVzJCeHF1UGdZ?oc=5",
-    "snippet": "Families demand answers after hospital sterilization failure as AHS says there was no risk to patients Edmonton Journal",
-    "publishedAt": "2026-07-08T07:00:00.000Z",
+    "id": "GrandePrairie:https://news.google.com/rss/articles/CBMi0gFBVV95cUxPejVhY1BSV1dzSVA5UGxSNWNJUTJkUE42Z3dqQVRrdWVRVml1MDM1RklTcW1oalQtNlEwcng3ZjVDQ1dTclNsalRtOVdGZExVdnYtdGNlekJETE9fQ25uUmtNZTFyZ0tYa2tQR",
+    "title": "Beaverlodge Municipal Hospital ED facing three physician shortages this week - My Grande Prairie Now",
+    "source": "My Grande Prairie Now",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPejVhY1BSV1dzSVA5UGxSNWNJUTJkUE42Z3dqQVRrdWVRVml1MDM1RklTcW1oalQtNlEwcng3ZjVDQ1dTclNsalRtOVdGZExVdnYtdGNlekJETE9fQ25uUmtNZTFyZ0tYa2tQRVdvQ2VNS040MUF4UndlaGVBdkdkYXIwbTAxMHc1a2xmX1UtUEtLSHhycGRsUmxyeThyZk9ZUjJOblo1WHBCTGphQUxsMzVrbmVXaFk4bTVScUZtc3lKSWZGdWw1TmNQVlZPN3UzRXc?oc=5",
+    "snippet": "Beaverlodge Municipal Hospital ED facing three physician shortages this week My Grande Prairie Now",
+    "publishedAt": "2026-08-18T00:54:47.000Z",
     "region": "GrandePrairie",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
-    "id": "RedDeer:https://news.google.com/rss/articles/CBMihwFBVV95cUxPNE9vdVQxUDNURVMxbmtfWTFJR21Mb2V5bmcwVDZQd3A3N2FCMVRmOVBHY29lQTIzMnFYbVdNbENLZFRreVl4ckZHR3AySEo5YlpfamxUdkQxNVZnUnNqTENTZHJ1RFI0X2dyQlVKQkJ",
-    "title": "Sylvan Lake pushes to upgrade health clinic as urgent care demand swells - CBC",
-    "source": "CBC",
+    "id": "Lethbridge:https://news.google.com/rss/articles/CBMinwFBVV95cUxNX2R0aGFqa21rRkRZR1RXTjJsNFpCZ2lDRHotN09seU5uUVZQbFVQR1pNSnpBMlVVT2tmVktVVVFnbzZDbG4tWTFwWF9EcUpQNE1YcnNIbkhIWlpNZHdKTG5NYlc5aTY5UDZJUmVm",
+    "title": "Local IAFF disappointed with council - The Lethbridge Herald",
+    "source": "The Lethbridge Herald",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX2R0aGFqa21rRkRZR1RXTjJsNFpCZ2lDRHotN09seU5uUVZQbFVQR1pNSnpBMlVVT2tmVktVVVFnbzZDbG4tWTFwWF9EcUpQNE1YcnNIbkhIWlpNZHdKTG5NYlc5aTY5UDZJUmVmRzFOQl9wSlAxSzFwMXJxbnNLcEtwbFBjb2RzTXZ4bjJPMks2SmUwUTl5RmdSaVhGeUU?oc=5",
+    "snippet": "Local IAFF disappointed with council The Lethbridge Herald",
+    "publishedAt": "2026-07-30T07:00:00.000Z",
+    "region": "Lethbridge",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
+  },
+  {
+    "id": "FortMcMurray:https://news.google.com/rss/articles/CBMihwFBVV95cUxPNE9vdVQxUDNURVMxbmtfWTFJR21Mb2V5bmcwVDZQd3A3N2FCMVRmOVBHY29lQTIzMnFYbVdNbENLZFRreVl4ckZHR3AySEo5YlpfamxUdkQxNVZnUnNqTENTZHJ1RFI0X2dyQl",
+    "title": "Sylvan Lake pushes to upgrade health clinic as urgent care demand swells - cbc.ca",
+    "source": "cbc.ca",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNE9vdVQxUDNURVMxbmtfWTFJR21Mb2V5bmcwVDZQd3A3N2FCMVRmOVBHY29lQTIzMnFYbVdNbENLZFRreVl4ckZHR3AySEo5YlpfamxUdkQxNVZnUnNqTENTZHJ1RFI0X2dyQlVKQkJZOHBiN2RXaTl5MGdnejhpZGtKdFp1d0k?oc=5",
-    "snippet": "Sylvan Lake pushes to upgrade health clinic as urgent care demand swells CBC",
+    "snippet": "Sylvan Lake pushes to upgrade health clinic as urgent care demand swells cbc.ca",
     "publishedAt": "2026-07-06T07:00:00.000Z",
-    "region": "RedDeer",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "region": "FortMcMurray",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
-    "id": "Calgary:https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbG85SEJpczdIWklZX3FQeFBZWU1DeEZTeGt5WUNBLXZhVjBOU2R2MWkzMEV2RjFKTElfcWJwNW1McGttNEFCeHFrYzYtRFBlVDdVblFHSmxXTkxzM3YyX2hscFA1UVFfVmdJTDRLc08",
-    "title": "What a new report reveals about the true cause of Canada’s massive emergency wait times - CTV News",
-    "source": "CTV News",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbG85SEJpczdIWklZX3FQeFBZWU1DeEZTeGt5WUNBLXZhVjBOU2R2MWkzMEV2RjFKTElfcWJwNW1McGttNEFCeHFrYzYtRFBlVDdVblFHSmxXTkxzM3YyX2hscFA1UVFfVmdJTDRLc085cjdwMnVIYU94THJmNkl2SmwzWGNZTGI4cF9YNFZYY0w0S002SXdIeml6Z2trLWFON1IwWURyb0loMGw3U0lGMEtSaTJIZHg5WlExZ2xyU3RBRVk?oc=5",
-    "snippet": "What a new report reveals about the true cause of Canada’s massive emergency wait times CTV News",
-    "publishedAt": "2026-06-25T07:00:00.000Z",
-    "region": "Calgary",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
-  },
-  {
-    "id": "RedDeer:https://news.google.com/rss/articles/CBMirwFBVV95cUxObXpWLVFuUlBCd01CZk14ZlNtR1RSNnpPX1JpcnNnNTctajdGZ1Q3SXdLMnlrZXI4aWpVQkduUWFoekZxTHA1QU5xRXliWkZwMktFenp6dzZ3TWVlQy1QNE1oTmJHOGhlaGtjb0FzN1F",
-    "title": "Alberta pauses strategy aimed at integrated fire/ambulance service - The Stettler Independent",
-    "source": "The Stettler Independent",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObXpWLVFuUlBCd01CZk14ZlNtR1RSNnpPX1JpcnNnNTctajdGZ1Q3SXdLMnlrZXI4aWpVQkduUWFoekZxTHA1QU5xRXliWkZwMktFenp6dzZ3TWVlQy1QNE1oTmJHOGhlaGtjb0FzN1FlTEo5UXhoX2JnV3Qwc0NHVllSZE5Cb1hMTGhlMTNRM2VFMDl5cVVNdlF0T0xoeHVoMVRRY0hBOE9zd2RPR3Jv?oc=5",
-    "snippet": "Alberta pauses strategy aimed at integrated fire/ambulance service The Stettler Independent",
+    "id": "Lethbridge:https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWGVuZWtRbTZZQTBieG94emdJTXpXR3FWWXFEMG9wUFVoaDB0UHp4ZnZhYnEyVms2UDZHcmVxYW9aTGlEWW1raDNPNXBXTzFrUEkzdmRpTGxSQ3RGMVdZM2JCc2hucjZHaFAtYWZt",
+    "title": "Lethbridge EMS future in focus as province halts procurement process - My Lethbridge Now",
+    "source": "My Lethbridge Now",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWGVuZWtRbTZZQTBieG94emdJTXpXR3FWWXFEMG9wUFVoaDB0UHp4ZnZhYnEyVms2UDZHcmVxYW9aTGlEWW1raDNPNXBXTzFrUEkzdmRpTGxSQ3RGMVdZM2JCc2hucjZHaFAtYWZtNEVrLUlFLThCTW50T0VKdjZHbmg2eTFnbzdUZnR1bjBsX3NWR1hhdzJSRDY0eXRvSmNMZFh6MF91TWtVSGllSEloY3RYazhPengw?oc=5",
+    "snippet": "Lethbridge EMS future in focus as province halts procurement process My Lethbridge Now",
     "publishedAt": "2026-06-23T07:00:00.000Z",
-    "region": "RedDeer",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "region": "Lethbridge",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "Edmonton:https://news.google.com/rss/articles/CBMilwFBVV95cUxNR3l6T1UwZUNobksyTkVzTnhNOTM1M2h3dzdxVEF1eU85TUNPc0hqQW04UVplaEN3ckNSSm94UWNtaHNKbEt4Y0syX0hPR25wb014ZUdOUEUwRWFsdjBHdEd4RE0yUmJ2T2NJRG5kaj",
@@ -57,7 +47,7 @@
     "snippet": "Edmonton ER patients wait longer, stay longer than anywhere else in Alberta: AHS data Edmonton Journal",
     "publishedAt": "2026-06-22T07:00:00.000Z",
     "region": "Edmonton",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "Lethbridge:https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbFV6dm92Q1JNV2RIWDZ3aUI0eXE0dHh6WElIQ0RTdFZ4WkpBTFV0ZnpYckRyTEVjcFVmcTZqZlRUS21tT1VESXNXNXB4Nm9HWGZ3di0tTk9wN202bVM4VTBPdnFLN05fUXRETy1T",
@@ -67,7 +57,7 @@
     "snippet": "ER department at Fort Macleod Health Centre closes doors for eight hours beginning Monday at 11 p.m. Lethbridge News Now",
     "publishedAt": "2026-06-08T07:00:00.000Z",
     "region": "Lethbridge",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "RedDeer:https://news.google.com/rss/articles/CBMikgJBVV95cUxOMFNZSGZOQmFKTEp4NnEzVzc0MzNFRUJneEc2ODN1RzJjVF9OV0E2Q2Q3UDJtTW5ZSGx1OGRrZEtybE5uVkkzVGNSUFptNDZfaGJnSWpuWEZaWFlOWW0xVWs5bXVnYXRpNmZuOXlGT1M",
@@ -77,7 +67,7 @@
     "snippet": "1942 ~ Joan Bolster (nee Schaffrick) ~ 2026 \"A huge Thank you to the nurses, doctors and staff at the Red Deer Regional Hospital Emergency Department and Unit 32.\" rdnewsnow.com",
     "publishedAt": "2026-06-07T07:00:00.000Z",
     "region": "RedDeer",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "MedicineHat:https://news.google.com/rss/articles/CBMiwgFBVV95cUxNb182QjU1c2VrV05RZ3BIODVWTHQzdDNmWUg2ZGIxV3hiLWtRQzA3NnNXb2pESWpwblV4d2trd0V0Y1huQlhUYjdRVmN2RzlBTVAxbjJsNndoV1hlYlcyT3pYMmZQYUhEY29VbTN",
@@ -87,17 +77,7 @@
     "snippet": "Deja vu, but worse: ER docs say government action hasn’t matched crisis Medicine Hat News",
     "publishedAt": "2026-06-05T07:00:00.000Z",
     "region": "MedicineHat",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
-  },
-  {
-    "id": "RedDeer:https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd3F3R3hyWWhLMzJpaHBIanJ5OEhsU0NjdlBOVmpyakZmaWxtUTVmY0RKRzZtelIxOXRWNWlEbXVMeVZNNEdHdnJuekhIdVFiQmtPbjFnR3lFdVF3OTUyN2xCZUEya1JtdXhBOFlxQzF",
-    "title": "Systemic underfunding may be cause of lengthy waits in Red Deer’s ER - Red Deer Advocate",
-    "source": "Red Deer Advocate",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd3F3R3hyWWhLMzJpaHBIanJ5OEhsU0NjdlBOVmpyakZmaWxtUTVmY0RKRzZtelIxOXRWNWlEbXVMeVZNNEdHdnJuekhIdVFiQmtPbjFnR3lFdVF3OTUyN2xCZUEya1JtdXhBOFlxQzFHTFc0a2cyR0o5MW5HRnlKZFJKaWYza09RZHpHMWtpWXVrRUdTVGVIVnR3RU4taHFsc1paRzFFUGU1WFE?oc=5",
-    "snippet": "Systemic underfunding may be cause of lengthy waits in Red Deer’s ER Red Deer Advocate",
-    "publishedAt": "2026-06-02T07:00:00.000Z",
-    "region": "RedDeer",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "Calgary:https://news.google.com/rss/articles/CBMirAFBVV95cUxNblhoOThEczdTRGUyM21HMC05WmYxQ3JkZjE5VFBUcVFVa2M4RnluYzBFdGlTSmZUNEFNUDJ0Y1hHWThDWkhsOGdyNUVPRHZ4WmFER2xNWlRiLXhKM3V2aGZqQzBOM2Y4X3N5ZldqXzJ",
@@ -107,17 +87,17 @@
     "snippet": "Alberta’s ER deaths spotlight systemic hospital underfunding Policy Alternatives",
     "publishedAt": "2026-05-21T07:00:00.000Z",
     "region": "Calgary",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "Edmonton:https://news.google.com/rss/articles/CBMic0FVX3lxTE1DUklQbTVKMkc1M2h4bTNtUUVMcW5WUmZRNDdEUkl6V2x2SGRvR0lFVmtUMDFtZWlHczF1S1Z3Wnl6X2JmanB1Y0V0UXRPNXNZTDVNTW1VWk1vU3laX0FnS3NDNUJjMFZZZkVzQjBrbn",
-    "title": "Another man died waiting in an Edmonton hospital ER: Alberta Medical Association - globalnews.ca",
-    "source": "globalnews.ca",
+    "title": "Another man died waiting in an Edmonton hospital ER: Alberta Medical Association - Global News",
+    "source": "Global News",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DUklQbTVKMkc1M2h4bTNtUUVMcW5WUmZRNDdEUkl6V2x2SGRvR0lFVmtUMDFtZWlHczF1S1Z3Wnl6X2JmanB1Y0V0UXRPNXNZTDVNTW1VWk1vU3laX0FnS3NDNUJjMFZZZkVzQjBrbnJzV00?oc=5",
-    "snippet": "Another man died waiting in an Edmonton hospital ER: Alberta Medical Association globalnews.ca",
+    "snippet": "Another man died waiting in an Edmonton hospital ER: Alberta Medical Association Global News",
     "publishedAt": "2026-05-16T07:00:00.000Z",
     "region": "Edmonton",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "Edmonton:https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ2pFcHRSWllqd3IyOEotQmQ2YnFBbkF4cFJYSmFkVXZLZmJxejNaYjBQa1dvU2hWQjVlZmpUaGZURmZsdDB4THhCLWlsZHBRb3RYYmVxSzV2MFRyR2FPbWNlTEpzMGlvdjNqbV9sWE",
@@ -127,7 +107,7 @@
     "snippet": "Patient death in Edmonton ER under investigation as doctors warn of ongoing overcrowding crisis CityNews Edmonton",
     "publishedAt": "2026-05-16T07:00:00.000Z",
     "region": "Edmonton",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "MedicineHat:https://news.google.com/rss/articles/CBMiugFBVV95cUxPTm9FRHlCYTl4OHdnYlBSc2ZxeW4yYWhVZDJqeEd1TTVlLTNmU250dDhhb3NHZ2puekNKbjJKTE9rdlNQOXppbVBZMHpZQnV4ZkxCZWIxeFhELXB3SXhPR3lYZjIyd2FHdEEtVGR",
@@ -137,37 +117,27 @@
     "snippet": "Alberta investigating death of man who waited six hours in Edmonton ER The Globe and Mail",
     "publishedAt": "2026-05-15T07:00:00.000Z",
     "region": "MedicineHat",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "Lethbridge:https://news.google.com/rss/articles/CBMikAFBVV95cUxQUDJkUXlZZ0FSYmFQZ3N4N2F3NVpSZ0JFRHVSS0lsRzYyVGsyZml5RkZlUHNrZ0Vmd0J4dkhkZkVMUkNaLWZKbUNOa2dJNmFOekQwVk1zcFBfczc0TXl5M0IwczBQdERXaXd6SDEy",
-    "title": "City remains committed to integrated Fire and EMS - lethbridge.ca",
-    "source": "lethbridge.ca",
+    "title": "City remains committed to integrated Fire and EMS - City of Lethbridge",
+    "source": "City of Lethbridge",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUDJkUXlZZ0FSYmFQZ3N4N2F3NVpSZ0JFRHVSS0lsRzYyVGsyZml5RkZlUHNrZ0Vmd0J4dkhkZkVMUkNaLWZKbUNOa2dJNmFOekQwVk1zcFBfczc0TXl5M0IwczBQdERXaXd6SDEyRGNyOWg3VDNYNnZMTmdRT1NVc0FIUDlYVzFjaFFKTVdrVmg?oc=5",
-    "snippet": "City remains committed to integrated Fire and EMS lethbridge.ca",
+    "snippet": "City remains committed to integrated Fire and EMS City of Lethbridge",
     "publishedAt": "2026-05-13T07:00:00.000Z",
     "region": "Lethbridge",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "Lethbridge:https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeC16aGVvbWNOeHEta1JxVWp6TXl1enVLdE1vN3NxcWEzYmhzTnN4S1NYTVJ0MHJtMHBHSGh4OWFWcnZ3eUltak5mLXpMWTB6UUhWRVNUek1NRzlpd052dXlVY2JZOTU2NlVrcFVo",
-    "title": "Alberta municipalities split on future of integrated EMS services - CBC",
-    "source": "CBC",
+    "title": "Alberta municipalities split on future of integrated EMS services - cbc.ca",
+    "source": "cbc.ca",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeC16aGVvbWNOeHEta1JxVWp6TXl1enVLdE1vN3NxcWEzYmhzTnN4S1NYTVJ0MHJtMHBHSGh4OWFWcnZ3eUltak5mLXpMWTB6UUhWRVNUek1NRzlpd052dXlVY2JZOTU2NlVrcFVoUlE2VDU0Skh2ZGJRWVpzWGhsOVBDTnZrQjZKcUc3NGN6d2M4UkU4ZFBDSXBPRnB3clpWVVNndjJUWWNaSGE5Z0g3aVljcjUtSW1OOVg1Rk1VZFk?oc=5",
-    "snippet": "Alberta municipalities split on future of integrated EMS services CBC",
+    "snippet": "Alberta municipalities split on future of integrated EMS services cbc.ca",
     "publishedAt": "2026-05-13T07:00:00.000Z",
     "region": "Lethbridge",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
-  },
-  {
-    "id": "GrandePrairie:https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWkNiWVBXM1lWU3VHSDJwRTdpSVlsMDNaOHZKRkZtX1NmOUdSSDhZb1ZDcEczSTQtbWNvd18wM1o3dzFCa0VEb0xxUVQ2eWZxamVWMEV0UUQzamVNNkdCR1pPczBiLUZxRFhxc",
-    "title": "4 in life-threatening condition after bus carrying oil-and-gas workers rolls in northern Alberta - CTV News",
-    "source": "CTV News",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWkNiWVBXM1lWU3VHSDJwRTdpSVlsMDNaOHZKRkZtX1NmOUdSSDhZb1ZDcEczSTQtbWNvd18wM1o3dzFCa0VEb0xxUVQ2eWZxamVWMEV0UUQzamVNNkdCR1pPczBiLUZxRFhxcnkzbTVETm9CZnRrQTR2Rmx5MUU5dkpqX2VhbG0tc045MjBfS1ZsSEJwTTBGalpoNlZOMGJFaEVqaXNkZ1pRM3RtUlJkWDZwXzBCUGZEY2NlT2t3ZkRLRXJWT1ZNUzg0dGdjcUpKNC1j?oc=5",
-    "snippet": "4 in life-threatening condition after bus carrying oil-and-gas workers rolls in northern Alberta CTV News",
-    "publishedAt": "2026-05-13T07:00:00.000Z",
-    "region": "GrandePrairie",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "RedDeer:https://news.google.com/rss/articles/CBMiowFBVV95cUxNSTMxY1ZaeW50Q0FGb3kydWdSTVNSOUl6OTVoTVZYa1g3Z0M1cjI5YUw5WVV5M2wtU3B6UDFFaGhKeUNSS3k0VDNJMWJ5NUNhWHRUX3RlNFlwU0ZKaUpGa3h5a2M1V0lYVEFyeGxUTHd",
@@ -177,17 +147,7 @@
     "snippet": "Ponoka hospital emergency department temporarily closed centralalbertaonline.com",
     "publishedAt": "2026-05-11T07:00:00.000Z",
     "region": "RedDeer",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
-  },
-  {
-    "id": "GrandePrairie:https://news.google.com/rss/articles/CBMi6AFBVV95cUxNeHZuczIwc2ZwNU5wM0c4Y2xTZm82dHhXU0RhVWhVVmdueTNHSGZ1VHZvRVpKM0hfa0JWTkVGSHkzejk5SXA2OGtmbmFTaldzdUpYNUxDU1hFNUdYZC13UzlOVXU4UHRhSFRpY",
-    "title": "Select elective surgeries resume at GPRH as AHS continues instrumentation issue investigation - My Grande Prairie Now",
-    "source": "My Grande Prairie Now",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNeHZuczIwc2ZwNU5wM0c4Y2xTZm82dHhXU0RhVWhVVmdueTNHSGZ1VHZvRVpKM0hfa0JWTkVGSHkzejk5SXA2OGtmbmFTaldzdUpYNUxDU1hFNUdYZC13UzlOVXU4UHRhSFRpYnM0cGE5NjBMdV9DalVhNmlNb2RreVAxQ24xcV9lb21oWFA1aWhhWk02YlFNMlphU0lGN1lmTHZhOXRialFYUG56YUtvWm9nV1h0ek9TZlJhSnc0YU5YT3dSZUY3LXpnd2EzYk1nMXpFLTVSSVAwa2lUZ1JkMjRYQUpiS2N5?oc=5",
-    "snippet": "Select elective surgeries resume at GPRH as AHS continues instrumentation issue investigation My Grande Prairie Now",
-    "publishedAt": "2026-05-07T07:00:00.000Z",
-    "region": "GrandePrairie",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "GrandePrairie:https://news.google.com/rss/articles/CBMimwFBVV95cUxOcVlDVjZFemx0LUczeGRJUEJwRVd4Ni11S2V1QjhXaVN6eHhOaW90QV9iT2g1MXpVTDdBdllBQW5MMFpTeV9leHpYelEweHZncDFkX0lJcHltMll5T1B3RUJsRW1YMTh3UHRLT",
@@ -197,67 +157,87 @@
     "snippet": "More issues with surgical instrument sterilization at GPRH EverythingGP",
     "publishedAt": "2026-05-07T07:00:00.000Z",
     "region": "GrandePrairie",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
+  },
+  {
+    "id": "GrandePrairie:https://news.google.com/rss/articles/CBMi6AFBVV95cUxNeHZuczIwc2ZwNU5wM0c4Y2xTZm82dHhXU0RhVWhVVmdueTNHSGZ1VHZvRVpKM0hfa0JWTkVGSHkzejk5SXA2OGtmbmFTaldzdUpYNUxDU1hFNUdYZC13UzlOVXU4UHRhSFRpY",
+    "title": "Select elective surgeries resume at GPRH as AHS continues instrumentation issue investigation - My Grande Prairie Now",
+    "source": "My Grande Prairie Now",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNeHZuczIwc2ZwNU5wM0c4Y2xTZm82dHhXU0RhVWhVVmdueTNHSGZ1VHZvRVpKM0hfa0JWTkVGSHkzejk5SXA2OGtmbmFTaldzdUpYNUxDU1hFNUdYZC13UzlOVXU4UHRhSFRpYnM0cGE5NjBMdV9DalVhNmlNb2RreVAxQ24xcV9lb21oWFA1aWhhWk02YlFNMlphU0lGN1lmTHZhOXRialFYUG56YUtvWm9nV1h0ek9TZlJhSnc0YU5YT3dSZUY3LXpnd2EzYk1nMXpFLTVSSVAwa2lUZ1JkMjRYQUpiS2N5?oc=5",
+    "snippet": "Select elective surgeries resume at GPRH as AHS continues instrumentation issue investigation My Grande Prairie Now",
+    "publishedAt": "2026-05-07T07:00:00.000Z",
+    "region": "GrandePrairie",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "Lethbridge:https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGt0X0R5M3pFbjNiLUNmVVlfN09ZZjdOYTZZSFNDYV9NWTFHNVdwckJBQ1hublZXYkRMbWRkbXVJbjF3N1dxRU5oNzdzUFVYNTlEWkxwNmxsallTLTFfSXBuT05kSmRHck5sVmlG",
-    "title": "Lethbridge could lose 114-year-old integrated fire, emergency service - globalnews.ca",
-    "source": "globalnews.ca",
+    "title": "Lethbridge could lose 114-year-old integrated fire, emergency service - Global News",
+    "source": "Global News",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGt0X0R5M3pFbjNiLUNmVVlfN09ZZjdOYTZZSFNDYV9NWTFHNVdwckJBQ1hublZXYkRMbWRkbXVJbjF3N1dxRU5oNzdzUFVYNTlEWkxwNmxsallTLTFfSXBuT05kSmRHck5sVmlGZktRam1HRWUwSnB1TExjTFFUWEZwTGswWUFmVFFVai1CY3Z1Q3gxN2I0?oc=5",
-    "snippet": "Lethbridge could lose 114-year-old integrated fire, emergency service globalnews.ca",
+    "snippet": "Lethbridge could lose 114-year-old integrated fire, emergency service Global News",
     "publishedAt": "2026-05-01T07:00:00.000Z",
     "region": "Lethbridge",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "GrandePrairie:https://news.google.com/rss/articles/CBMipAFBVV95cUxOb1ZEdGpLSVRsZy1xbXEtc2VmZnYxaHYxc3duQ214MEUxVlFCRm95cHRaOUZlMDI0TGliTnR5UXpGZ2h4S09WY3Z6NVBOMVVaUHVXMEh2SlhQdzNxTHlhQ0x0ellCR0ZBa2k5Q",
-    "title": "Woman airlifted for gallbladder surgery after tool sterilization issues at northern Alberta hospital - CBC",
-    "source": "CBC",
+    "title": "Woman airlifted for gallbladder surgery after tool sterilization issues at northern Alberta hospital - cbc.ca",
+    "source": "cbc.ca",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb1ZEdGpLSVRsZy1xbXEtc2VmZnYxaHYxc3duQ214MEUxVlFCRm95cHRaOUZlMDI0TGliTnR5UXpGZ2h4S09WY3Z6NVBOMVVaUHVXMEh2SlhQdzNxTHlhQ0x0ellCR0ZBa2k5Q19UZEU4Z1hfTW5PNlBmWHhsY1NrWGxTQklCOGpZbmR6ZnlTWkc2dlVDLUVtNnNBd0NGZUltWHJuWA?oc=5",
-    "snippet": "Woman airlifted for gallbladder surgery after tool sterilization issues at northern Alberta hospital CBC",
+    "snippet": "Woman airlifted for gallbladder surgery after tool sterilization issues at northern Alberta hospital cbc.ca",
     "publishedAt": "2026-04-29T07:00:00.000Z",
     "region": "GrandePrairie",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "GrandePrairie:https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkhaVFVWLWx4RzNXaGlCdURjRDh0RUM1d1BWdlg4Ui1jX1B1bXZGTlpXd3paWTdfSGp6M0NEa29RVnZKMjB0ZWZsT3ZYWkJpTEI4ZWJ0bS1KbWpzRDBPaUlCZlFBRVQ2a2lDM",
-    "title": "Elective surgeries postponed at Grande Prairie hospital due to surgical tool sterilization issues - CBC",
-    "source": "CBC",
+    "title": "Elective surgeries postponed at Grande Prairie hospital due to surgical tool sterilization issues - cbc.ca",
+    "source": "cbc.ca",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkhaVFVWLWx4RzNXaGlCdURjRDh0RUM1d1BWdlg4Ui1jX1B1bXZGTlpXd3paWTdfSGp6M0NEa29RVnZKMjB0ZWZsT3ZYWkJpTEI4ZWJ0bS1KbWpzRDBPaUlCZlFBRVQ2a2lDMGc0eERzN1pabWVoOGlqSlVPNFdvUzdaYno4VXBoOFlOekFoSnBRaF9xa2RIWW8wYnY?oc=5",
-    "snippet": "Elective surgeries postponed at Grande Prairie hospital due to surgical tool sterilization issues CBC",
+    "snippet": "Elective surgeries postponed at Grande Prairie hospital due to surgical tool sterilization issues cbc.ca",
     "publishedAt": "2026-04-28T07:00:00.000Z",
     "region": "GrandePrairie",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
-    "id": "Lethbridge:https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWkM3UW1uZG9jN3Z4ZW5IODRuQUJ2enRBa29lVk9Sekh4T0JfVzRObGpwZndSc1NLM294Y3FwOExmOWdMdkxxT3pKd3htRU0zODRMMXI4ZEh5Z1IyWmM0RmhIV3hkQjBucnNsdk5G",
-    "title": "‘Life or death’: Lethbridge union sounds alarm over potential changes to integrated fire-EMS model - CTV News",
-    "source": "CTV News",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWkM3UW1uZG9jN3Z4ZW5IODRuQUJ2enRBa29lVk9Sekh4T0JfVzRObGpwZndSc1NLM294Y3FwOExmOWdMdkxxT3pKd3htRU0zODRMMXI4ZEh5Z1IyWmM0RmhIV3hkQjBucnNsdk5GNGZPekV0NWM3Z1ZsRGlvYi1tUzdrVWNRSWpGbG5BQ21Kb2VfbVptZFd1YWd2ZHBJdUpYVkdkUmJjZFNRZGhnLUxsSkJFQUtySUx0YTFDU3lGa0dvUzhRcXRHanFjVG5aRmRQ?oc=5",
-    "snippet": "‘Life or death’: Lethbridge union sounds alarm over potential changes to integrated fire-EMS model CTV News",
-    "publishedAt": "2026-03-23T07:00:00.000Z",
-    "region": "Lethbridge",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "id": "GrandePrairie:https://news.google.com/rss/articles/CBMijAFBVV95cUxNY2tzWVpzWkxmNDRCM0NJTHQyYlBjRVdzT3VqaDBHa3NpSEt1MXVzYjYyYktSdUF3cU9sMjVhMDlKT0xxZ205WXM4YTBZZHM0emZ2WDBzc1ByZUlhR0FNNHRuanYybmtBeHY2Q",
+    "title": "Some elective surgeries being postponed at GPRH - EverythingGP",
+    "source": "EverythingGP",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY2tzWVpzWkxmNDRCM0NJTHQyYlBjRVdzT3VqaDBHa3NpSEt1MXVzYjYyYktSdUF3cU9sMjVhMDlKT0xxZ205WXM4YTBZZHM0emZ2WDBzc1ByZUlhR0FNNHRuanYybmtBeHY2QVI1UDREVGhCM01mdWVnUzY3Tmg4YkM5UWUyRWtfMkt6Zw?oc=5",
+    "snippet": "Some elective surgeries being postponed at GPRH EverythingGP",
+    "publishedAt": "2026-04-27T07:00:00.000Z",
+    "region": "GrandePrairie",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
-    "id": "Calgary:https://news.google.com/rss/articles/CBMihgFBVV95cUxQeENvZHowb0p3NUl6ZlU2REYtdmx2S3dzUUFFbGVwMWh2NjVLNk1mTWdfbU12OGVEd2hSUkt5ZHpPTVpERHpjNnFkSFBWNlRxVXRLUzNUTTJReGFjZVpCZXk4N0hyNnZsRl8yNWxvWHl",
-    "title": "Hospital overcrowding key factor in long emergency room waits, Alberta study shows - CBC",
-    "source": "CBC",
+    "id": "RedDeer:https://news.google.com/rss/articles/CBMipAFBVV95cUxNczZRUXZ3VlNWNWwzUnI1YjJiTGFTa0ZrQ3FGTmhhcUwzaV9kcmdDX2lmbWR1bmZON1lXUHB3RmMwRE1VckNwWjVlNnNmSWtoYml4YVZtT0lEQ2xQT29QeHlDTmZ6NXFpRzJYTlc2cUc",
+    "title": "New central Alberta sexual assault centre helps patients, hospital backlogs - cbc.ca",
+    "source": "cbc.ca",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNczZRUXZ3VlNWNWwzUnI1YjJiTGFTa0ZrQ3FGTmhhcUwzaV9kcmdDX2lmbWR1bmZON1lXUHB3RmMwRE1VckNwWjVlNnNmSWtoYml4YVZtT0lEQ2xQT29QeHlDTmZ6NXFpRzJYTlc2cUczdUJKcUF2UlZIM1R0UEMtV2NwbjFjLVl1WElsQU9iUXhPT0ZvSUM1VFJGdGFidHFaajJUVw?oc=5",
+    "snippet": "New central Alberta sexual assault centre helps patients, hospital backlogs cbc.ca",
+    "publishedAt": "2026-02-08T08:00:00.000Z",
+    "region": "RedDeer",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
+  },
+  {
+    "id": "Edmonton:https://news.google.com/rss/articles/CBMihgFBVV95cUxQeENvZHowb0p3NUl6ZlU2REYtdmx2S3dzUUFFbGVwMWh2NjVLNk1mTWdfbU12OGVEd2hSUkt5ZHpPTVpERHpjNnFkSFBWNlRxVXRLUzNUTTJReGFjZVpCZXk4N0hyNnZsRl8yNWxvWH",
+    "title": "Hospital overcrowding key factor in long emergency room waits, Alberta study shows - cbc.ca",
+    "source": "cbc.ca",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeENvZHowb0p3NUl6ZlU2REYtdmx2S3dzUUFFbGVwMWh2NjVLNk1mTWdfbU12OGVEd2hSUkt5ZHpPTVpERHpjNnFkSFBWNlRxVXRLUzNUTTJReGFjZVpCZXk4N0hyNnZsRl8yNWxvWHlXUVhnRFNPMlBhZTZvMEdJUDFqSXdjUQ?oc=5",
-    "snippet": "Hospital overcrowding key factor in long emergency room waits, Alberta study shows CBC",
+    "snippet": "Hospital overcrowding key factor in long emergency room waits, Alberta study shows cbc.ca",
     "publishedAt": "2026-02-03T08:00:00.000Z",
-    "region": "Calgary",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "region": "Edmonton",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "Calgary:https://news.google.com/rss/articles/CBMisAFBVV95cUxObDN4RXhOajVOcjhHUldhVmlXVTQ4Q05SdVRMbHFPTXQyUC1TYzZfTDF1d2ZhcVRqNV9sWk5GVUdmenQwcXE2WFVfc0NKV242N2dJR0FDTXkyVWI5Zk5VLTZNd0RYdzJ6bjRkTi1LZlV",
-    "title": "Patients detail ‘disaster’ inside emergency departments of Alberta hospitals - globalnews.ca",
-    "source": "globalnews.ca",
+    "title": "Patients detail ‘disaster’ inside emergency departments of Alberta hospitals - Global News",
+    "source": "Global News",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObDN4RXhOajVOcjhHUldhVmlXVTQ4Q05SdVRMbHFPTXQyUC1TYzZfTDF1d2ZhcVRqNV9sWk5GVUdmenQwcXE2WFVfc0NKV242N2dJR0FDTXkyVWI5Zk5VLTZNd0RYdzJ6bjRkTi1LZlVqU0FuZE05bEhmRjBwaXV4aUl6WnpxLTVDc2oxNnlwdjRIY3Y4b0ZVRGxVczM0WmlOeGUxRW9oSFM3MlJjN2dqVQ?oc=5",
-    "snippet": "Patients detail ‘disaster’ inside emergency departments of Alberta hospitals globalnews.ca",
+    "snippet": "Patients detail ‘disaster’ inside emergency departments of Alberta hospitals Global News",
     "publishedAt": "2026-01-28T08:00:00.000Z",
     "region": "Calgary",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "MedicineHat:https://news.google.com/rss/articles/CBMimgFBVV95cUxNOU1wUzJlZk1Fc1J0bUFLdy1jczlTYjhhVUdRRUw3eENyMVBpNFluUlhDdXd1aUFadEpMNnViUWdJa0x1Rlhad1lacFp0YTJUSGw5eTBYa3FJaDI1dmtrSGZQcXEtX1daRVgyTnl",
@@ -267,17 +247,37 @@
     "snippet": "Patients detail ‘disaster’ inside Alberta emergency departments CityNews Calgary",
     "publishedAt": "2026-01-28T08:00:00.000Z",
     "region": "MedicineHat",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "Calgary:https://news.google.com/rss/articles/CBMiigFBVV95cUxQeFl3NE1oRUlvVHZOT2dZZ0NMeEF1Q2g2STVMTWc2dXVuRzlvZnh6akI2aDh3NmxTZ3lnR2dPUE4xNFJjY0F3bnRnWlpOYTgyUkptcWdiYUJIX19USXl2bjAyWGRIUDBCbnNFaEpnaEN",
-    "title": "'Please don't let me die': Calgary patients recount long waits in emergency rooms - CBC",
-    "source": "CBC",
+    "title": "'Please don't let me die': Calgary patients recount long waits in emergency rooms - cbc.ca",
+    "source": "cbc.ca",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeFl3NE1oRUlvVHZOT2dZZ0NMeEF1Q2g2STVMTWc2dXVuRzlvZnh6akI2aDh3NmxTZ3lnR2dPUE4xNFJjY0F3bnRnWlpOYTgyUkptcWdiYUJIX19USXl2bjAyWGRIUDBCbnNFaEpnaENGbDhJMHQ3VDBKYXotdDd2cHdxMFFRMm5vdnc?oc=5",
-    "snippet": "'Please don't let me die': Calgary patients recount long waits in emergency rooms CBC",
+    "snippet": "'Please don't let me die': Calgary patients recount long waits in emergency rooms cbc.ca",
     "publishedAt": "2026-01-27T08:00:00.000Z",
     "region": "Calgary",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
+  },
+  {
+    "id": "Calgary:https://news.google.com/rss/articles/CBMivwFBVV95cUxNUFV6QXF5Vi1RTUp5a2p0U0J4ekFNeHFmRmhib19zalM3bTRFLVFubTB6NVYyYUtwY2FVR0V2N2FYTEtYV0F5Mk1DRW1YYkozSHlJRUxXa2hoZzRDVHlsanZjN016N21FRDVSanZOazJ",
+    "title": "Long ER waiting times fuel frustration in Alberta as hospitals strain across Canada - CTV News",
+    "source": "CTV News",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUFV6QXF5Vi1RTUp5a2p0U0J4ekFNeHFmRmhib19zalM3bTRFLVFubTB6NVYyYUtwY2FVR0V2N2FYTEtYV0F5Mk1DRW1YYkozSHlJRUxXa2hoZzRDVHlsanZjN016N21FRDVSanZOazJtdE51dE9DZkVpVUlTQlA0dVdXa0Z0TnluZDJpNkFJNktFZXR1REZPTVFMVkRiNkstSFB6NjdlVVVFYUg2WkYtS2xuNmpwZEtrRldoeGVoTQ?oc=5",
+    "snippet": "Long ER waiting times fuel frustration in Alberta as hospitals strain across Canada CTV News",
+    "publishedAt": "2026-01-25T08:00:00.000Z",
+    "region": "Calgary",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
+  },
+  {
+    "id": "RedDeer:https://news.google.com/rss/articles/CBMihgFBVV95cUxQdDFVOFB5WmdEcV9zdTM0aFd0MlBhMlNma3U5ellKdlVrcTJPdWk3THg4bUhjZHRJRDg3SGNDUjJQdTJGZ2NabDAwYkJIX3Q0NXVPUXBqRXVldl90ZWhua1JsU2RPcld4MDIyV1lVWWN",
+    "title": "CUPE Alberta launches campaign for health care state of emergency - CUPE",
+    "source": "CUPE",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdDFVOFB5WmdEcV9zdTM0aFd0MlBhMlNma3U5ellKdlVrcTJPdWk3THg4bUhjZHRJRDg3SGNDUjJQdTJGZ2NabDAwYkJIX3Q0NXVPUXBqRXVldl90ZWhua1JsU2RPcld4MDIyV1lVWWNXR04wYjVFRGh2Y2dJSTZjWFdjZVU2QQ?oc=5",
+    "snippet": "CUPE Alberta launches campaign for health care state of emergency CUPE",
+    "publishedAt": "2026-01-21T08:00:00.000Z",
+    "region": "RedDeer",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "Calgary:https://news.google.com/rss/articles/CBMimAFBVV95cUxQeDVPdHBpRTBHNWRsNW9Xb2hvOWl5alUtMUM4Z3RPNU5pRkFoOERTaDRKMTI4ZERsR21tLTZ3SWFrU25Gb2xjOGc0VEcydUJ4SHBVX28xUUpMY0dHamN3YkhCTWZLUmxveEU4TWkwMTJ",
@@ -287,47 +287,67 @@
     "snippet": "Alberta gov't responds to ER letter on waiting room deaths CityNews Calgary",
     "publishedAt": "2026-01-20T08:00:00.000Z",
     "region": "Calgary",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "MedicineHat:https://news.google.com/rss/articles/CBMilgFBVV95cUxPZE5PS0Z6R1JlYWVyeU1ZTW50aUVVWVJPVVlsaXZrUEFYQ1NDdlp6T2JiZkx5LTRLWHl6Vnc1Zk5HeHpwbFRWdTZFVVNEaTVobEVLOXFLUFRtckJNNW5tYnk4WlRibzY3MmU5UHo",
-    "title": "Alberta emergency doctors compile list of what they say are 6 potentially preventable ER deaths - CBC",
-    "source": "CBC",
+    "title": "Alberta emergency doctors compile list of what they say are 6 potentially preventable ER deaths - cbc.ca",
+    "source": "cbc.ca",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZE5PS0Z6R1JlYWVyeU1ZTW50aUVVWVJPVVlsaXZrUEFYQ1NDdlp6T2JiZkx5LTRLWHl6Vnc1Zk5HeHpwbFRWdTZFVVNEaTVobEVLOXFLUFRtckJNNW5tYnk4WlRibzY3MmU5UHo2TGlXZVU0VGJUOGQtSFJMMXY0SDNxOGcwallSLURBQ0pRdGg4V2NhV0E?oc=5",
-    "snippet": "Alberta emergency doctors compile list of what they say are 6 potentially preventable ER deaths CBC",
+    "snippet": "Alberta emergency doctors compile list of what they say are 6 potentially preventable ER deaths cbc.ca",
     "publishedAt": "2026-01-19T08:00:00.000Z",
     "region": "MedicineHat",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
+  },
+  {
+    "id": "Calgary:https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdWp5ME5vWHdZc1U1ZktLQXVCb25hcG1LYzRwdWdLeDJzQVY1a3ZQSzJFcXRaM0NobTk0UkZ4QzB5WmxNYnY5STB6OU1KeEFuZGw3Z0tPd21heURCSWJ6c3F4Njg3ZkZGUlg0VF9RWEk",
+    "title": "Alberta orders fatality inquiry into death of man at Edmonton emergency room - Radio-Canada",
+    "source": "Radio-Canada",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdWp5ME5vWHdZc1U1ZktLQXVCb25hcG1LYzRwdWdLeDJzQVY1a3ZQSzJFcXRaM0NobTk0UkZ4QzB5WmxNYnY5STB6OU1KeEFuZGw3Z0tPd21heURCSWJ6c3F4Njg3ZkZGUlg0VF9RWEk1anZ6NVQzeXZlM3ZVM0psWDFXOHBwdEJWb3NyaUxKTVB1S2RvdXl2ZnQyUlktaHBxRDVtYjVLbXN4QXZTX3lRcVpHNF9feWhPVUdTVEc1YWtCQQ?oc=5",
+    "snippet": "Alberta orders fatality inquiry into death of man at Edmonton emergency room Radio-Canada",
+    "publishedAt": "2026-01-16T08:00:00.000Z",
+    "region": "Calgary",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "FortMcMurray:https://news.google.com/rss/articles/CBMie0FVX3lxTFA3VmgwZkk1UGNVeTBQN2I0QklfTzhxZXpzbEZpS2FIMnpOZXlYTmRyOEFlQnplTm1xZUtMeUVjMHBoOHJnRUJxNmhmbDRLYmxDVi14MlVEM0VoVHhHMmdLQ3oxQ2hTMm5OeWszUm",
-    "title": "Alberta orders fatality inquiry into death of man at Edmonton emergency room - CBC",
-    "source": "CBC",
+    "title": "Alberta orders fatality inquiry into death of man at Edmonton emergency room - cbc.ca",
+    "source": "cbc.ca",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA3VmgwZkk1UGNVeTBQN2I0QklfTzhxZXpzbEZpS2FIMnpOZXlYTmRyOEFlQnplTm1xZUtMeUVjMHBoOHJnRUJxNmhmbDRLYmxDVi14MlVEM0VoVHhHMmdLQ3oxQ2hTMm5OeWszUmNoazJBOFMyZ1NKdDJBOA?oc=5",
-    "snippet": "Alberta orders fatality inquiry into death of man at Edmonton emergency room CBC",
+    "snippet": "Alberta orders fatality inquiry into death of man at Edmonton emergency room cbc.ca",
     "publishedAt": "2026-01-15T08:00:00.000Z",
     "region": "FortMcMurray",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
-    "id": "Lethbridge:https://news.google.com/rss/articles/CBMizAFBVV95cUxNbjB0QWpQM3lLLVI3X0h6bkZjNWl2NGhMS0RNWHpPbXdicGJYM1BDc0llenN2ZDVlYTI5ZXYyZXZwRVp4YlEzU2hqekNaVWdybWE3X0V6eTNFcnRtVldyVmc5QVRCSUhpclJCclc5",
-    "title": "Alberta emergency departments strained responding to respiratory virus season - My Lethbridge Now",
-    "source": "My Lethbridge Now",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbjB0QWpQM3lLLVI3X0h6bkZjNWl2NGhMS0RNWHpPbXdicGJYM1BDc0llenN2ZDVlYTI5ZXYyZXZwRVp4YlEzU2hqekNaVWdybWE3X0V6eTNFcnRtVldyVmc5QVRCSUhpclJCclc5YzJwX2kxN0FIeFd2b2lCSkNxUUZ4TGJxWkFjSWNnT1ZiSkt1LWtuZU9ETVNkT3lyTjhRdXhaalQtN1hTbEcyQVVxUHBObHZ0azRIWWh1OTZsQVpCQVZ4T1JFRW5Bc1E?oc=5",
-    "snippet": "Alberta emergency departments strained responding to respiratory virus season My Lethbridge Now",
+    "id": "RedDeer:https://news.google.com/rss/articles/CBMirgFBVV95cUxOZHNiTzdlSUVScnZsbE5PVjJpQzVHam5PUGlhb2xrdHc1SnRDRDNFd3RPRGFldzd5cEdSZ3lNZkh5WmJhRlY0LTR6clY5Ul9YbjdkbUxKY0NabDRieGx4dEU2MVdlekJFblJYbi13a3N",
+    "title": "Overcrowded Edmonton hospitals refuse patients from Red Deer hospital - reddeeradvocate.com",
+    "source": "reddeeradvocate.com",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZHNiTzdlSUVScnZsbE5PVjJpQzVHam5PUGlhb2xrdHc1SnRDRDNFd3RPRGFldzd5cEdSZ3lNZkh5WmJhRlY0LTR6clY5Ul9YbjdkbUxKY0NabDRieGx4dEU2MVdlekJFblJYbi13a3NfY0x2U09wTG1Pb1h5WnY5WndwZXJIMktBeUtUaHQxbmZPY05xZThLMUNrSndTYnBWRkpiei05NWJYQk45Z2c?oc=5",
+    "snippet": "Overcrowded Edmonton hospitals refuse patients from Red Deer hospital reddeeradvocate.com",
     "publishedAt": "2026-01-13T08:00:00.000Z",
-    "region": "Lethbridge",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "region": "RedDeer",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
+  },
+  {
+    "id": "RedDeer:https://news.google.com/rss/articles/CBMisAFBVV95cUxPUWp0b0hFQ2w3dXRTUHJUUDdqQmFlQlBBWVZBbnpOQnBTbFo4Q18tZzl1OWVrYkdTb0tGR3VmSXpnUE05d2xaUDJXYk9qaEs2WGFIejl4bjBBU2ppellNOTJabi1FZUhuNFB5aVBhUS1",
+    "title": "'Dire straits': Emergency room doctors call for state of emergency in Edmonton zone - Edmonton Journal",
+    "source": "Edmonton Journal",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUWp0b0hFQ2w3dXRTUHJUUDdqQmFlQlBBWVZBbnpOQnBTbFo4Q18tZzl1OWVrYkdTb0tGR3VmSXpnUE05d2xaUDJXYk9qaEs2WGFIejl4bjBBU2ppellNOTJabi1FZUhuNFB5aVBhUS1sbzB6cEVzWEZlMHRQX201X05uWXJpT0dCUWlmZGZ0MWk2V3poTHdDeTZzMHl3RzdoMzd1M1pUQ2lkMHBGV3VsVQ?oc=5",
+    "snippet": "'Dire straits': Emergency room doctors call for state of emergency in Edmonton zone Edmonton Journal",
+    "publishedAt": "2026-01-09T08:00:00.000Z",
+    "region": "RedDeer",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "Edmonton:https://news.google.com/rss/articles/CBMigwFBVV95cUxPZnZ2VkdpaU5kdlVyN0RZb05yTzNrU3lfQVA4aDFEOWVoVVpXdlRRbkthVGZZd1l6dUZCWk5GTDRmcC1KRE1SSTU1WksxbjZUUDBzQWczMXl0bEFiUkptTFZfUG9nYURoRkRvejBYWm",
-    "title": "Alberta needs to call state of emergency over crowded hospitals, physicians say - CBC",
-    "source": "CBC",
+    "title": "Alberta needs to call state of emergency over crowded hospitals, physicians say - cbc.ca",
+    "source": "cbc.ca",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZnZ2VkdpaU5kdlVyN0RZb05yTzNrU3lfQVA4aDFEOWVoVVpXdlRRbkthVGZZd1l6dUZCWk5GTDRmcC1KRE1SSTU1WksxbjZUUDBzQWczMXl0bEFiUkptTFZfUG9nYURoRkRvejBYWmdVcEpPOHQzV2syNTRRZ3N0ZTRITQ?oc=5",
-    "snippet": "Alberta needs to call state of emergency over crowded hospitals, physicians say CBC",
+    "snippet": "Alberta needs to call state of emergency over crowded hospitals, physicians say cbc.ca",
     "publishedAt": "2026-01-08T08:00:00.000Z",
     "region": "Edmonton",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "MedicineHat:https://news.google.com/rss/articles/CBMixgFBVV95cUxNckxiX0EtWUk2MjBYLTlYS19zbEVqMHBoMUc5ZGsyRjMteWlGZ1o3Q0VtamtYT1NWOENzVl9pcHJpVHR5WUVidEtKSlM2T1N4YnBPQWVuakdvRnBFVHA2dkFjbk5DTzdXQmNTLWt",
@@ -337,7 +357,7 @@
     "snippet": "Edmonton ER death strikes fear in Medicine Hat man waiting for neurosurgical evaluation CTV News",
     "publishedAt": "2025-12-30T08:00:00.000Z",
     "region": "MedicineHat",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "FortMcMurray:https://news.google.com/rss/articles/CBMisgFBVV95cUxNWUJlWXlvUkRUSkNhX0RJZDZqelAxUnlWbU9RaDhQZkFhMjlDSUw0Y0xiS0d3Qnk1NU8yclQ0T2xHQTFaMjMzelZEVGs4MzZLNlpPTGhpdlZoT0xTcGxCNi0xa2x4a1dvbXc0N3",
@@ -347,16 +367,36 @@
     "snippet": "Alberta promises new beds, surgeries and urgent care centres; critics call it 'plans to make plans' CityNews Calgary",
     "publishedAt": "2025-11-15T08:00:00.000Z",
     "region": "FortMcMurray",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
+  },
+  {
+    "id": "FortMcMurray:https://news.google.com/rss/articles/CBMihAFBVV95cUxPSDN3YkpObTMzVVpMMG9ZZmk1cmFBcmhDVXhEWjZiMU9ZWDFDU3RtUVlMNnNXUmQ4TUZKQXRlVHRHWXA1ZkY0d1VzOXhIZ284cFRwbk40N01xTVRYVWxqU0QyX1BwZW42SU9qSD",
+    "title": "14 AB hospitals lost their ER in September 2025 - The Alberta Worker",
+    "source": "The Alberta Worker",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSDN3YkpObTMzVVpMMG9ZZmk1cmFBcmhDVXhEWjZiMU9ZWDFDU3RtUVlMNnNXUmQ4TUZKQXRlVHRHWXA1ZkY0d1VzOXhIZ284cFRwbk40N01xTVRYVWxqU0QyX1BwZW42SU9qSDk0TkxRN1J2bWJIY3o1aXhKR0MtQU5UMng?oc=5",
+    "snippet": "14 AB hospitals lost their ER in September 2025 The Alberta Worker",
+    "publishedAt": "2025-10-25T07:00:00.000Z",
+    "region": "FortMcMurray",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   },
   {
     "id": "FortMcMurray:https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmQ2pzT0FDV1BURUZmREd4S3J1NGNoM1pGQnQzYzVxNVBaTWdyS09jWnJZQm4yWmZFbWY3QzZYdVFvcEw0eGtqYXBMR3ptaWx4eU5QU1ljVFhOX3lxRGpENnptc2Z4VW8?oc=5",
-    "title": "Fort Mac team ready to respond to all emergencies - albertahealthservices.ca",
-    "source": "albertahealthservices.ca",
+    "title": "Fort Mac team ready to respond to all emergencies - Alberta Health Services",
+    "source": "Alberta Health Services",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmQ2pzT0FDV1BURUZmREd4S3J1NGNoM1pGQnQzYzVxNVBaTWdyS09jWnJZQm4yWmZFbWY3QzZYdVFvcEw0eGtqYXBMR3ptaWx4eU5QU1ljVFhOX3lxRGpENnptc2Z4VW8?oc=5",
-    "snippet": "Fort Mac team ready to respond to all emergencies albertahealthservices.ca",
+    "snippet": "Fort Mac team ready to respond to all emergencies Alberta Health Services",
     "publishedAt": "2022-06-23T07:00:00.000Z",
     "region": "FortMcMurray",
-    "fetchedAt": "2026-08-17T11:24:54.257Z"
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
+  },
+  {
+    "id": "FortMcMurray:https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWkNKcllBa3JyLXQxaVhPSDlmQ2tOaVl0Nmt5ZllOQ1J6S2dpQlU3MUsxTVNRTlVjdGtJcWxfZW1LVjUtMzVMT1pMSXJEX0Z6Q3BKTjhMTXVzempIeVhaVWk0LUZXZXB6dzlpTV",
+    "title": "Fort McMurray residents will return to community with access to health care thanks to unique facility - Global News",
+    "source": "Global News",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWkNKcllBa3JyLXQxaVhPSDlmQ2tOaVl0Nmt5ZllOQ1J6S2dpQlU3MUsxTVNRTlVjdGtJcWxfZW1LVjUtMzVMT1pMSXJEX0Z6Q3BKTjhMTXVzempIeVhaVWk0LUZXZXB6dzlpTVVtQlg2ampZaWliLU8zNERpdFNjdjMyaTdqdGVhaV91S2RTSGtfM3VwOFk0LVJFSXVSX1pYdHRfZEZKZlRyUHpjTExJUGJ3UElnbnRZd1QyWE5EemkzSmIya29WdzMwVlFHbkNMZmJv?oc=5",
+    "snippet": "Fort McMurray residents will return to community with access to health care thanks to unique facility Global News",
+    "publishedAt": "2016-05-25T07:00:00.000Z",
+    "region": "FortMcMurray",
+    "fetchedAt": "2026-08-18T11:24:23.654Z"
   }
 ]
