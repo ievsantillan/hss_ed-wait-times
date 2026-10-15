@@ -1,0 +1,54 @@
+- generic [ref=e3]:
+  - link "Skip to main content" [ref=e4] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "HSS home" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Health Shared Services" [ref=e8]
+        - generic [ref=e9]: Emergency Department Wait Times
+      - generic [ref=e10]:
+        - navigation "Primary" [ref=e11]:
+          - link "Wait Times" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link "In the News" [ref=e13] [cursor=pointer]:
+            - /url: /news
+          - link "Admin" [ref=e14] [cursor=pointer]:
+            - /url: /admin
+          - link "Privacy" [ref=e15] [cursor=pointer]:
+            - /url: /privacy
+        - group "Choose language" [ref=e16]:
+          - generic [ref=e17]: Language
+          - button "Switch to English" [pressed] [ref=e18]: EN
+          - button "Passer au français" [ref=e19]: FR
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: In the News
+        - heading "Emergency care headlines" [level=1] [ref=e24]
+        - paragraph [ref=e25]: Recent coverage related to Alberta emergency departments, urgent care, and wait times.
+      - generic [ref=e26]:
+        - text: Region
+        - combobox "Region" [ref=e27]:
+          - option "All regions" [selected]
+          - option "Calgary"
+          - option "Edmonton"
+          - option "Red Deer"
+          - option "Lethbridge"
+          - option "Medicine Hat"
+          - option "Grande Prairie"
+          - option "Fort McMurray"
+      - paragraph [ref=e28]: Headlines link to the original publishers. Availability and article text are controlled by each publisher.
+      - paragraph [ref=e30]: Loading news...
+  - contentinfo [ref=e31]:
+    - contentinfo "Wait times disclaimer" [ref=e33]:
+      - generic [ref=e34]:
+        - paragraph [ref=e35]: Wait-times data is sourced from Alberta Health Services.
+        - paragraph [ref=e36]:
+          - text: The information provided on this website is for general information only. If you have questions or comments about the Wait Times website, please
+          - link "submit feedback" [ref=e37] [cursor=pointer]:
+            - /url: http://www.albertahealthservices.ca/about/Page12937.aspx
+          - text: or contact Wait Times Feedback at
+          - link "webcomm@ahs.ca" [ref=e38] [cursor=pointer]:
+            - /url: mailto:webcomm@ahs.ca
+          - text: .
