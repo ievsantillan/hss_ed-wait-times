@@ -1,5 +1,6 @@
 import { getRayfinClient } from './rayfinClient';
 import type { CatalogFacility } from '@/lib/merge';
+import type { RegionCode } from '@/content/regions';
 
 const FACILITY_FIELDS = [
   'id',
@@ -22,8 +23,8 @@ const FACILITY_FIELDS = [
 
 export interface FacilityInput {
   name: string;
-  region: string;
-  category: string;
+  region: RegionCode;
+  category: 'Emergency' | 'Urgent Care';
   siteId?: string;
   address?: string;
   note?: string;
