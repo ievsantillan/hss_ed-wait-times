@@ -1,0 +1,354 @@
+- generic [ref=e3]:
+  - link "Skip to main content" [ref=e4] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "HSS home" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Health Shared Services" [ref=e8]
+        - generic [ref=e9]: Emergency Department Wait Times
+      - generic [ref=e10]:
+        - navigation "Primary" [ref=e11]:
+          - link "Wait Times" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link "In the News" [ref=e13] [cursor=pointer]:
+            - /url: /news
+          - link "Admin" [ref=e14] [cursor=pointer]:
+            - /url: /admin
+          - link "Privacy" [ref=e15] [cursor=pointer]:
+            - /url: /privacy
+        - group "Choose language" [ref=e16]:
+          - generic [ref=e17]: Language
+          - button "Switch to English" [pressed] [ref=e18]: EN
+          - button "Passer au français" [ref=e19]: FR
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: In the News
+        - heading "Emergency care headlines" [level=1] [ref=e24]
+        - paragraph [ref=e25]: Recent coverage related to Alberta emergency departments, urgent care, and wait times.
+      - generic [ref=e26]:
+        - text: Region
+        - combobox "Region" [ref=e27]:
+          - option "All regions" [selected]
+          - option "Calgary"
+          - option "Edmonton"
+          - option "Red Deer"
+          - option "Lethbridge"
+          - option "Medicine Hat"
+          - option "Grande Prairie"
+          - option "Fort McMurray"
+      - paragraph [ref=e28]: Headlines link to the original publishers. Availability and article text are controlled by each publisher.
+      - region "News articles" [ref=e39]:
+        - article [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: Lethbridge News Now
+            - generic [aria-hidden] [ref=e43]: •
+            - time [ref=e44]: published 3 months ago
+            - generic [ref=e45]: Lethbridge
+          - heading [level=2] [ref=e46]:
+            - link "ER department at Fort Macleod Health Centre closes doors for eight hours beginning Monday at 11 p.m. - Lethbridge News Now" [ref=e47] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbFV6dm92Q1JNV2RIWDZ3aUI0eXE0dHh6WElIQ0RTdFZ4WkpBTFV0ZnpYckRyTEVjcFVmcTZqZlRUS21tT1VESXNXNXB4Nm9HWGZ3di0tTk9wN202bVM4VTBPdnFLN05fUXRETy1TdzNRRWZROFR5c01Xb01mU09NMHcyLUxNSUlWLVVLVWFLX0pua1FlT3k1Sy1FUlItelVxS2JxajR4ODQ0VG5WUV93M0RjcXQ1RjcwVjVrTnpTN3J1azNySnJxbGFwS3otdlFYNVRRMjRNdU4?oc=5
+          - paragraph [ref=e48]: ER department at Fort Macleod Health Centre closes doors for eight hours beginning Monday at 11 p.m. Lethbridge News Now
+        - article [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]: rdnewsnow.com
+            - generic [aria-hidden] [ref=e52]: •
+            - time [ref=e53]: published 3 months ago
+            - generic [ref=e54]: Red Deer
+          - heading [level=2] [ref=e55]:
+            - link "1942 ~ Joan Bolster (nee Schaffrick) ~ 2026 \"A huge Thank you to the nurses, doctors and staff at the Red Deer Regional Hospital Emergency Department and Unit 32.\" - rdnewsnow.com" [ref=e56] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMikgJBVV95cUxOMFNZSGZOQmFKTEp4NnEzVzc0MzNFRUJneEc2ODN1RzJjVF9OV0E2Q2Q3UDJtTW5ZSGx1OGRrZEtybE5uVkkzVGNSUFptNDZfaGJnSWpuWEZaWFlOWW0xVWs5bXVnYXRpNmZuOXlGT1MxMzZmWDY3VUpTWUNkN1k0V0JEQVJJSDBGeXVuSTlXa1FGRWdEeVV4Y0lMclBUTW5ZWjg0U3g4WGhha2lqbEhJY1Y5ellhQ29uZVFSeVhpVGtHeGtBelNTa3FDbTE1aGVlcUprM1hqMV9aNUtQaHBmbGZ1SHhzY1RmWFZ2VWZXRlBLZnVUQVhOM25EckF0azI1dUZqVlFzMTkwNUZqR0N1NVRn?oc=5
+          - paragraph [ref=e57]: 1942 ~ Joan Bolster (nee Schaffrick) ~ 2026 "A huge Thank you to the nurses, doctors and staff at the Red Deer Regional Hospital Emergency Department and Unit 32." rdnewsnow.com
+        - article [ref=e58]:
+          - generic [ref=e59]:
+            - generic [ref=e60]: Medicine Hat News
+            - generic [aria-hidden] [ref=e61]: •
+            - time [ref=e62]: published 3 months ago
+            - generic [ref=e63]: Medicine Hat
+          - heading [level=2] [ref=e64]:
+            - 'link "Deja vu, but worse: ER docs say government action hasn’t matched crisis - Medicine Hat News" [ref=e65] [cursor=pointer]':
+              - /url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNb182QjU1c2VrV05RZ3BIODVWTHQzdDNmWUg2ZGIxV3hiLWtRQzA3NnNXb2pESWpwblV4d2trd0V0Y1huQlhUYjdRVmN2RzlBTVAxbjJsNndoV1hlYlcyT3pYMmZQYUhEY29VbTN1bjd0dUtaQWhLdXhPNjhUWEl5RjFjSXVLSXNkLWpYbXBhVUFHN19iMm55cThGb0Yza3AxeDdtVDR4RjNrRWFCT3otSjJLNHp1MERxenNxeHR6R3RjZw?oc=5
+          - paragraph [ref=e66]: "Deja vu, but worse: ER docs say government action hasn’t matched crisis Medicine Hat News"
+        - article [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: Red Deer Advocate
+            - generic [aria-hidden] [ref=e70]: •
+            - time [ref=e71]: published 3 months ago
+            - generic [ref=e72]: Red Deer
+          - heading [level=2] [ref=e73]:
+            - link "Systemic underfunding may be cause of lengthy waits in Red Deer’s ER - Red Deer Advocate" [ref=e74] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd3F3R3hyWWhLMzJpaHBIanJ5OEhsU0NjdlBOVmpyakZmaWxtUTVmY0RKRzZtelIxOXRWNWlEbXVMeVZNNEdHdnJuekhIdVFiQmtPbjFnR3lFdVF3OTUyN2xCZUEya1JtdXhBOFlxQzFHTFc0a2cyR0o5MW5HRnlKZFJKaWYza09RZHpHMWtpWXVrRUdTVGVIVnR3RU4taHFsc1paRzFFUGU1WFE?oc=5
+          - paragraph [ref=e75]: Systemic underfunding may be cause of lengthy waits in Red Deer’s ER Red Deer Advocate
+        - article [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: Calgary Herald
+            - generic [aria-hidden] [ref=e79]: •
+            - time [ref=e80]: published 3 months ago
+            - generic [ref=e81]: Calgary
+          - heading [level=2] [ref=e82]:
+            - link "Measles exposure alert issued for Foothills, Alberta Children's Hospital emergency departments - Calgary Herald" [ref=e83] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRG9JTDdvTVpaaHc5NUpwdFc5cTlkV0ROekFOR1R3elZMRkEteTdHLTZ6cHpxbXdUeUFYOVlSTE5VM0tTSDFEZVR4QmZyend1NEhYQzJxZExjZTBLTm5wSEMtTFV4T0x6X0hiaHRmS2dxc3pLdnRiQmg3LVR2VHR6LWVmVVNsZ0ZYNUlMSjFObWl2X2RJbjJkMUNLZWpLUDZaY2ozX1R5TmFSbFZRX0dVTGVpcFJvVXRPMS1kWWtjZV8?oc=5
+          - paragraph [ref=e84]: Measles exposure alert issued for Foothills, Alberta Children's Hospital emergency departments Calgary Herald
+        - article [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e87]: Policy Alternatives
+            - generic [aria-hidden] [ref=e88]: •
+            - time [ref=e89]: published 3 months ago
+            - generic [ref=e90]: Edmonton
+          - heading [level=2] [ref=e91]:
+            - link "Alberta’s ER deaths spotlight systemic hospital underfunding - Policy Alternatives" [ref=e92] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMirAFBVV95cUxNblhoOThEczdTRGUyM21HMC05WmYxQ3JkZjE5VFBUcVFVa2M4RnluYzBFdGlTSmZUNEFNUDJ0Y1hHWThDWkhsOGdyNUVPRHZ4WmFER2xNWlRiLXhKM3V2aGZqQzBOM2Y4X3N5ZldqXzJSN0kwSjJ2UUlfcXdua192bnhXeVpOZnZKR3R0TEh1dU8xcHJ2ODhNNTh1bWh2SFZNSlRhSjJjOE8wMXJs?oc=5
+          - paragraph [ref=e93]: Alberta’s ER deaths spotlight systemic hospital underfunding Policy Alternatives
+        - article [ref=e94]:
+          - generic [ref=e95]:
+            - generic [ref=e96]: Edmonton Journal
+            - generic [aria-hidden] [ref=e97]: •
+            - time [ref=e98]: published 3 months ago
+            - generic [ref=e99]: Edmonton
+          - heading [level=2] [ref=e100]:
+            - 'link "Opinion: How to lessen wait times in Alberta''s overcrowded ERs - Edmonton Journal" [ref=e101] [cursor=pointer]':
+              - /url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaDdVbEtWd2pYSXphSVNVNmpOcTJDMV82QnlKOWpVcjFib2tmRTA4bW5KVTZEZUN2V3NzdTJHNnNPWWhPR2RGWFh1TUo0NmdqTEswY2UxWU5JVC1NYVRycTlzNmNYWVhYNzI5TTBUQVQ0X3dIUzFKQ0o3QUZac1lYTjFoYW94aGdmM0xmSGlmU2h6MVBRWUJHQTJicUkwWjlhNVQtd19JTDVEd1U?oc=5
+          - paragraph [ref=e102]: "Opinion: How to lessen wait times in Alberta's overcrowded ERs Edmonton Journal"
+        - article [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e105]: Global News
+            - generic [aria-hidden] [ref=e106]: •
+            - time [ref=e107]: published 3 months ago
+            - generic [ref=e108]: Edmonton
+          - heading [level=2] [ref=e109]:
+            - 'link "Another man died waiting in an Edmonton hospital ER: Alberta Medical Association - Global News" [ref=e110] [cursor=pointer]':
+              - /url: https://news.google.com/rss/articles/CBMic0FVX3lxTE1DUklQbTVKMkc1M2h4bTNtUUVMcW5WUmZRNDdEUkl6V2x2SGRvR0lFVmtUMDFtZWlHczF1S1Z3Wnl6X2JmanB1Y0V0UXRPNXNZTDVNTW1VWk1vU3laX0FnS3NDNUJjMFZZZkVzQjBrbnJzV00?oc=5
+          - paragraph [ref=e111]: "Another man died waiting in an Edmonton hospital ER: Alberta Medical Association Global News"
+        - article [ref=e112]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: CityNews Edmonton
+            - generic [aria-hidden] [ref=e115]: •
+            - time [ref=e116]: published 3 months ago
+            - generic [ref=e117]: Edmonton
+          - heading [level=2] [ref=e118]:
+            - link "Patient death in Edmonton ER under investigation as doctors warn of ongoing overcrowding crisis - CityNews Edmonton" [ref=e119] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ2pFcHRSWllqd3IyOEotQmQ2YnFBbkF4cFJYSmFkVXZLZmJxejNaYjBQa1dvU2hWQjVlZmpUaGZURmZsdDB4THhCLWlsZHBRb3RYYmVxSzV2MFRyR2FPbWNlTEpzMGlvdjNqbV9sWEs3X2tOUnYyeXdnZkdzRExJeDc3TXdWLW9WSmJNc01kTEhWNS1DWjB6UzBBNF9ueXZBRUVz?oc=5
+          - paragraph [ref=e120]: Patient death in Edmonton ER under investigation as doctors warn of ongoing overcrowding crisis CityNews Edmonton
+        - article [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: The Globe and Mail
+            - generic [aria-hidden] [ref=e124]: •
+            - time [ref=e125]: published 3 months ago
+            - generic [ref=e126]: Medicine Hat
+          - heading [level=2] [ref=e127]:
+            - link "Alberta investigating death of man who waited six hours in Edmonton ER - The Globe and Mail" [ref=e128] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMiugFBVV95cUxPTm9FRHlCYTl4OHdnYlBSc2ZxeW4yYWhVZDJqeEd1TTVlLTNmU250dDhhb3NHZ2puekNKbjJKTE9rdlNQOXppbVBZMHpZQnV4ZkxCZWIxeFhELXB3SXhPR3lYZjIyd2FHdEEtVGR3UXhhYk1XTFhtSWpXdU14VUUxZEoyMzdIa0FwYy1fZEF1dFpEM2JZV242Q28xYUVsakRxUGNGN0VJd2ctN25JdTBWMVUzWkxPbHRoY0E?oc=5
+          - paragraph [ref=e129]: Alberta investigating death of man who waited six hours in Edmonton ER The Globe and Mail
+        - article [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e132]: CBC
+            - generic [aria-hidden] [ref=e133]: •
+            - time [ref=e134]: published 4 months ago
+            - generic [ref=e135]: Lethbridge
+          - heading [level=2] [ref=e136]:
+            - link "Alberta municipalities split on future of integrated EMS services - CBC" [ref=e137] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeC16aGVvbWNOeHEta1JxVWp6TXl1enVLdE1vN3NxcWEzYmhzTnN4S1NYTVJ0MHJtMHBHSGh4OWFWcnZ3eUltak5mLXpMWTB6UUhWRVNUek1NRzlpd052dXlVY2JZOTU2NlVrcFVoUlE2VDU0Skh2ZGJRWVpzWGhsOVBDTnZrQjZKcUc3NGN6d2M4UkU4ZFBDSXBPRnB3clpWVVNndjJUWWNaSGE5Z0g3aVljcjUtSW1OOVg1Rk1VZFk?oc=5
+          - paragraph [ref=e138]: Alberta municipalities split on future of integrated EMS services CBC
+        - article [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e141]: CTV News
+            - generic [aria-hidden] [ref=e142]: •
+            - time [ref=e143]: published 4 months ago
+            - generic [ref=e144]: Grande Prairie
+          - heading [level=2] [ref=e145]:
+            - link "4 in life-threatening condition after bus carrying oil-and-gas workers rolls in northern Alberta - CTV News" [ref=e146] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWkNiWVBXM1lWU3VHSDJwRTdpSVlsMDNaOHZKRkZtX1NmOUdSSDhZb1ZDcEczSTQtbWNvd18wM1o3dzFCa0VEb0xxUVQ2eWZxamVWMEV0UUQzamVNNkdCR1pPczBiLUZxRFhxcnkzbTVETm9CZnRrQTR2Rmx5MUU5dkpqX2VhbG0tc045MjBfS1ZsSEJwTTBGalpoNlZOMGJFaEVqaXNkZ1pRM3RtUlJkWDZwXzBCUGZEY2NlT2t3ZkRLRXJWT1ZNUzg0dGdjcUpKNC1j?oc=5
+          - paragraph [ref=e147]: 4 in life-threatening condition after bus carrying oil-and-gas workers rolls in northern Alberta CTV News
+        - article [ref=e148]:
+          - generic [ref=e149]:
+            - generic [ref=e150]: centralalbertaonline.com
+            - generic [aria-hidden] [ref=e151]: •
+            - time [ref=e152]: published 4 months ago
+            - generic [ref=e153]: Red Deer
+          - heading [level=2] [ref=e154]:
+            - link "Ponoka hospital emergency department temporarily closed - centralalbertaonline.com" [ref=e155] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMingFBVV95cUxNeHJjVzJuQVBiTGowNHlwbVdSbjRHTWUwTWFwYTNwVzBES3FUUkh3TE9uWVg4Y1BKbklUT3pRU1FOR09TNzlKd0pPOTliNElRaWRVaUk3STVYWG4ycHA3VllXT2JxT1RiYm9BcHRuUE5UemNQQjExZnB1b2NuSEh1Z0lHdzVGN3RkdlhmNFhWTTNwUlRaVUh0SHdNSG9sUQ?oc=5
+          - paragraph [ref=e156]: Ponoka hospital emergency department temporarily closed centralalbertaonline.com
+        - article [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e159]: EverythingGP
+            - generic [aria-hidden] [ref=e160]: •
+            - time [ref=e161]: published 4 months ago
+            - generic [ref=e162]: Grande Prairie
+          - heading [level=2] [ref=e163]:
+            - link "More issues with surgical instrument sterilization at GPRH - EverythingGP" [ref=e164] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMimwFBVV95cUxOcVlDVjZFemx0LUczeGRJUEJwRVd4Ni11S2V1QjhXaVN6eHhOaW90QV9iT2g1MXpVTDdBdllBQW5MMFpTeV9leHpYelEweHZncDFkX0lJcHltMll5T1B3RUJsRW1YMTh3UHRLTTBxT2pwMm5PZVIxWlczbVA2amp0MWFSSkhfZkxycUxzdlNOdURIVGZuSUJVeUx4TQ?oc=5
+          - paragraph [ref=e165]: More issues with surgical instrument sterilization at GPRH EverythingGP
+        - article [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e168]: Global News
+            - generic [aria-hidden] [ref=e169]: •
+            - time [ref=e170]: published 4 months ago
+            - generic [ref=e171]: Lethbridge
+          - heading [level=2] [ref=e172]:
+            - link "Lethbridge could lose 114-year-old integrated fire, emergency service - Global News" [ref=e173] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGt0X0R5M3pFbjNiLUNmVVlfN09ZZjdOYTZZSFNDYV9NWTFHNVdwckJBQ1hublZXYkRMbWRkbXVJbjF3N1dxRU5oNzdzUFVYNTlEWkxwNmxsallTLTFfSXBuT05kSmRHck5sVmlGZktRam1HRWUwSnB1TExjTFFUWEZwTGswWUFmVFFVai1CY3Z1Q3gxN2I0?oc=5
+          - paragraph [ref=e174]: Lethbridge could lose 114-year-old integrated fire, emergency service Global News
+        - article [ref=e175]:
+          - generic [ref=e176]:
+            - generic [ref=e177]: CBC
+            - generic [aria-hidden] [ref=e178]: •
+            - time [ref=e179]: published 4 months ago
+            - generic [ref=e180]: Grande Prairie
+          - heading [level=2] [ref=e181]:
+            - link "Woman airlifted for gallbladder surgery after tool sterilization issues at northern Alberta hospital - CBC" [ref=e182] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMipAFBVV95cUxOb1ZEdGpLSVRsZy1xbXEtc2VmZnYxaHYxc3duQ214MEUxVlFCRm95cHRaOUZlMDI0TGliTnR5UXpGZ2h4S09WY3Z6NVBOMVVaUHVXMEh2SlhQdzNxTHlhQ0x0ellCR0ZBa2k5Q19UZEU4Z1hfTW5PNlBmWHhsY1NrWGxTQklCOGpZbmR6ZnlTWkc2dlVDLUVtNnNBd0NGZUltWHJuWA?oc=5
+          - paragraph [ref=e183]: Woman airlifted for gallbladder surgery after tool sterilization issues at northern Alberta hospital CBC
+        - article [ref=e184]:
+          - generic [ref=e185]:
+            - generic [ref=e186]: CBC
+            - generic [aria-hidden] [ref=e187]: •
+            - time [ref=e188]: published 4 months ago
+            - generic [ref=e189]: Grande Prairie
+          - heading [level=2] [ref=e190]:
+            - link "Elective surgeries postponed at Grande Prairie hospital due to surgical tool sterilization issues - CBC" [ref=e191] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkhaVFVWLWx4RzNXaGlCdURjRDh0RUM1d1BWdlg4Ui1jX1B1bXZGTlpXd3paWTdfSGp6M0NEa29RVnZKMjB0ZWZsT3ZYWkJpTEI4ZWJ0bS1KbWpzRDBPaUlCZlFBRVQ2a2lDMGc0eERzN1pabWVoOGlqSlVPNFdvUzdaYno4VXBoOFlOekFoSnBRaF9xa2RIWW8wYnY?oc=5
+          - paragraph [ref=e192]: Elective surgeries postponed at Grande Prairie hospital due to surgical tool sterilization issues CBC
+        - article [ref=e193]:
+          - generic [ref=e194]:
+            - generic [ref=e195]: City of Lethbridge
+            - generic [aria-hidden] [ref=e196]: •
+            - time [ref=e197]: published 5 months ago
+            - generic [ref=e198]: Lethbridge
+          - heading [level=2] [ref=e199]:
+            - link "City asking for provincial EMS contract talks to continue - City of Lethbridge" [ref=e200] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMimwFBVV95cUxObnhBMUdzaGNLM3lmLUcyb1d6Yk9tNS1jZlpRbjZwWUtUQ0FLckJ0amhYcloyNXl0MGlQVnRPYi03bXVEeE04ZW1vZnp0clBGUkhyQ0dqU3pJSlRJMW8wejVKZ0JQRHk5ZFVyVGFFSkhDWXpxMGtBcHNBTkhhbXNuZGN0Rk90LWpEcEtpLU9LWFZ2Z3BORzQ3RWFPRQ?oc=5
+          - paragraph [ref=e201]: City asking for provincial EMS contract talks to continue City of Lethbridge
+        - article [ref=e202]:
+          - generic [ref=e203]:
+            - generic [ref=e204]: CBC
+            - generic [aria-hidden] [ref=e205]: •
+            - time [ref=e206]: published 7 months ago
+            - generic [ref=e207]: Red Deer
+          - heading [level=2] [ref=e208]:
+            - link "New central Alberta sexual assault centre helps patients, hospital backlogs - CBC" [ref=e209] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMipAFBVV95cUxNczZRUXZ3VlNWNWwzUnI1YjJiTGFTa0ZrQ3FGTmhhcUwzaV9kcmdDX2lmbWR1bmZON1lXUHB3RmMwRE1VckNwWjVlNnNmSWtoYml4YVZtT0lEQ2xQT29QeHlDTmZ6NXFpRzJYTlc2cUczdUJKcUF2UlZIM1R0UEMtV2NwbjFjLVl1WElsQU9iUXhPT0ZvSUM1VFJGdGFidHFaajJUVw?oc=5
+          - paragraph [ref=e210]: New central Alberta sexual assault centre helps patients, hospital backlogs CBC
+        - article [ref=e211]:
+          - generic [ref=e212]:
+            - generic [ref=e213]: CBC
+            - generic [aria-hidden] [ref=e214]: •
+            - time [ref=e215]: published 7 months ago
+            - generic [ref=e216]: Calgary
+          - heading [level=2] [ref=e217]:
+            - link "Hospital overcrowding key factor in long emergency room waits, Alberta study shows - CBC" [ref=e218] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQeENvZHowb0p3NUl6ZlU2REYtdmx2S3dzUUFFbGVwMWh2NjVLNk1mTWdfbU12OGVEd2hSUkt5ZHpPTVpERHpjNnFkSFBWNlRxVXRLUzNUTTJReGFjZVpCZXk4N0hyNnZsRl8yNWxvWHlXUVhnRFNPMlBhZTZvMEdJUDFqSXdjUQ?oc=5
+          - paragraph [ref=e219]: Hospital overcrowding key factor in long emergency room waits, Alberta study shows CBC
+        - article [ref=e220]:
+          - generic [ref=e221]:
+            - generic [ref=e222]: CTV News
+            - generic [aria-hidden] [ref=e223]: •
+            - time [ref=e224]: published 7 months ago
+            - generic [ref=e225]: Edmonton
+          - heading [level=2] [ref=e226]:
+            - link "One solution to improve emergency room wait times in Alberta - CTV News" [ref=e227] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMiowFBVV95cUxQd2tyUUp2YXlIMGtKbjlzeGZTb2RYUFRrb1JUMEhrd0lDRHRrUkdUd3o1alQ2bndyczRqQnNqN2RDTUFycVRPak1OcWlyOUppUVg0akN6M1Zoenppc2Z6aGpyRHVUakE1UlpFdEdTRHU5MFdfUkdnTkR4VFJJQVQ3eFVqMjhSaFFLWTAwM3lMSlhINURKNjAwMm9RRjZJTXpBQUFz?oc=5
+          - paragraph [ref=e228]: One solution to improve emergency room wait times in Alberta CTV News
+        - article [ref=e229]:
+          - generic [ref=e230]:
+            - generic [ref=e231]: Global News
+            - generic [aria-hidden] [ref=e232]: •
+            - time [ref=e233]: published 7 months ago
+            - generic [ref=e234]: Calgary
+          - heading [level=2] [ref=e235]:
+            - link "Patients detail ‘disaster’ inside emergency departments of Alberta hospitals - Global News" [ref=e236] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMisAFBVV95cUxObDN4RXhOajVOcjhHUldhVmlXVTQ4Q05SdVRMbHFPTXQyUC1TYzZfTDF1d2ZhcVRqNV9sWk5GVUdmenQwcXE2WFVfc0NKV242N2dJR0FDTXkyVWI5Zk5VLTZNd0RYdzJ6bjRkTi1LZlVqU0FuZE05bEhmRjBwaXV4aUl6WnpxLTVDc2oxNnlwdjRIY3Y4b0ZVRGxVczM0WmlOeGUxRW9oSFM3MlJjN2dqVQ?oc=5
+          - paragraph [ref=e237]: Patients detail ‘disaster’ inside emergency departments of Alberta hospitals Global News
+        - article [ref=e238]:
+          - generic [ref=e239]:
+            - generic [ref=e240]: CityNews Calgary
+            - generic [aria-hidden] [ref=e241]: •
+            - time [ref=e242]: published 7 months ago
+            - generic [ref=e243]: Medicine Hat
+          - heading [level=2] [ref=e244]:
+            - link "Patients detail ‘disaster’ inside Alberta emergency departments - CityNews Calgary" [ref=e245] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMimgFBVV95cUxNOU1wUzJlZk1Fc1J0bUFLdy1jczlTYjhhVUdRRUw3eENyMVBpNFluUlhDdXd1aUFadEpMNnViUWdJa0x1Rlhad1lacFp0YTJUSGw5eTBYa3FJaDI1dmtrSGZQcXEtX1daRVgyTnlPRV9VcWdZaDAwVDhmTFk0Qko4Zy03c0piZnRaX2gzWDhwcGN1clhJRjJiZ2tn?oc=5
+          - paragraph [ref=e246]: Patients detail ‘disaster’ inside Alberta emergency departments CityNews Calgary
+        - article [ref=e247]:
+          - generic [ref=e248]:
+            - generic [ref=e249]: CBC
+            - generic [aria-hidden] [ref=e250]: •
+            - time [ref=e251]: published 7 months ago
+            - generic [ref=e252]: Calgary
+          - heading [level=2] [ref=e253]:
+            - 'link "''Please don''t let me die'': Calgary patients recount long waits in emergency rooms - CBC" [ref=e254] [cursor=pointer]':
+              - /url: https://news.google.com/rss/articles/CBMiigFBVV95cUxQeFl3NE1oRUlvVHZOT2dZZ0NMeEF1Q2g2STVMTWc2dXVuRzlvZnh6akI2aDh3NmxTZ3lnR2dPUE4xNFJjY0F3bnRnWlpOYTgyUkptcWdiYUJIX19USXl2bjAyWGRIUDBCbnNFaEpnaENGbDhJMHQ3VDBKYXotdDd2cHdxMFFRMm5vdnc?oc=5
+          - paragraph [ref=e255]: "'Please don't let me die': Calgary patients recount long waits in emergency rooms CBC"
+        - article [ref=e256]:
+          - generic [ref=e257]:
+            - generic [ref=e258]: CUPE
+            - generic [aria-hidden] [ref=e259]: •
+            - time [ref=e260]: published 7 months ago
+            - generic [ref=e261]: Red Deer
+          - heading [level=2] [ref=e262]:
+            - link "CUPE Alberta launches campaign for health care state of emergency - CUPE" [ref=e263] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQdDFVOFB5WmdEcV9zdTM0aFd0MlBhMlNma3U5ellKdlVrcTJPdWk3THg4bUhjZHRJRDg3SGNDUjJQdTJGZ2NabDAwYkJIX3Q0NXVPUXBqRXVldl90ZWhua1JsU2RPcld4MDIyV1lVWWNXR04wYjVFRGh2Y2dJSTZjWFdjZVU2QQ?oc=5
+          - paragraph [ref=e264]: CUPE Alberta launches campaign for health care state of emergency CUPE
+        - article [ref=e265]:
+          - generic [ref=e266]:
+            - generic [ref=e267]: CityNews Calgary
+            - generic [aria-hidden] [ref=e268]: •
+            - time [ref=e269]: published 7 months ago
+            - generic [ref=e270]: Calgary
+          - heading [level=2] [ref=e271]:
+            - link "Alberta gov't responds to ER letter on waiting room deaths - CityNews Calgary" [ref=e272] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQeDVPdHBpRTBHNWRsNW9Xb2hvOWl5alUtMUM4Z3RPNU5pRkFoOERTaDRKMTI4ZERsR21tLTZ3SWFrU25Gb2xjOGc0VEcydUJ4SHBVX28xUUpMY0dHamN3YkhCTWZLUmxveEU4TWkwMTJ0RWtNajlqSHhRMzd4N05LOU1tRVlGREt6S2VWcDdlVmxKVG9vTFFMeA?oc=5
+          - paragraph [ref=e273]: Alberta gov't responds to ER letter on waiting room deaths CityNews Calgary
+        - article [ref=e274]:
+          - generic [ref=e275]:
+            - generic [ref=e276]: CBC
+            - generic [aria-hidden] [ref=e277]: •
+            - time [ref=e278]: published 7 months ago
+            - generic [ref=e279]: Medicine Hat
+          - heading [level=2] [ref=e280]:
+            - link "Alberta emergency doctors compile list of what they say are 6 potentially preventable ER deaths - CBC" [ref=e281] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMilgFBVV95cUxPZE5PS0Z6R1JlYWVyeU1ZTW50aUVVWVJPVVlsaXZrUEFYQ1NDdlp6T2JiZkx5LTRLWHl6Vnc1Zk5HeHpwbFRWdTZFVVNEaTVobEVLOXFLUFRtckJNNW5tYnk4WlRibzY3MmU5UHo2TGlXZVU0VGJUOGQtSFJMMXY0SDNxOGcwallSLURBQ0pRdGg4V2NhV0E?oc=5
+          - paragraph [ref=e282]: Alberta emergency doctors compile list of what they say are 6 potentially preventable ER deaths CBC
+        - article [ref=e283]:
+          - generic [ref=e284]:
+            - generic [ref=e285]: CBC
+            - generic [aria-hidden] [ref=e286]: •
+            - time [ref=e287]: published 7 months ago
+            - generic [ref=e288]: Fort McMurray
+          - heading [level=2] [ref=e289]:
+            - link "Alberta orders fatality inquiry into death of man at Edmonton emergency room - CBC" [ref=e290] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMie0FVX3lxTFA3VmgwZkk1UGNVeTBQN2I0QklfTzhxZXpzbEZpS2FIMnpOZXlYTmRyOEFlQnplTm1xZUtMeUVjMHBoOHJnRUJxNmhmbDRLYmxDVi14MlVEM0VoVHhHMmdLQ3oxQ2hTMm5OeWszUmNoazJBOFMyZ1NKdDJBOA?oc=5
+          - paragraph [ref=e291]: Alberta orders fatality inquiry into death of man at Edmonton emergency room CBC
+        - article [ref=e292]:
+          - generic [ref=e293]:
+            - generic [ref=e294]: Grande Prairie Daily Herald Tribune
+            - generic [aria-hidden] [ref=e295]: •
+            - time [ref=e296]: published 7 months ago
+            - generic [ref=e297]: Grande Prairie
+          - heading [level=2] [ref=e298]:
+            - link "Beaverlodge hospital gets virtual doctor program, offset emergency room stressors - Grande Prairie Daily Herald Tribune" [ref=e299] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPWTE3dGhWWkNpQzluaDhwbUI1eGdqV1dTcGlyTDlQOVBsSnJLTUhlYTNtTGVQWm43YWx3UXByZXdLbXhQcHc1OFo1S1ZtaHg2S2JMLVZIdmJuMjk2VTVEWXdxSDh2cFQzdDZCYUwtT09NaEZBc1hoM2N3Ui1mNTk2OHFmY1FFN2FuQVB6ajZyaW9VS3RXSFVRd2ZZQnpyTkhKOXdqTkJIYkFZb0RPV3Zaa2UzaFFvSThVN2ZadWIwWmdaZkhBeGxfY0xCVQ?oc=5
+          - paragraph [ref=e300]: Beaverlodge hospital gets virtual doctor program, offset emergency room stressors Grande Prairie Daily Herald Tribune
+        - article [ref=e301]:
+          - generic [ref=e302]:
+            - generic [ref=e303]: My Lethbridge Now
+            - generic [aria-hidden] [ref=e304]: •
+            - time [ref=e305]: published 8 months ago
+            - generic [ref=e306]: Lethbridge
+          - heading [level=2] [ref=e307]:
+            - link "Alberta emergency departments strained responding to respiratory virus season - My Lethbridge Now" [ref=e308] [cursor=pointer]:
+              - /url: https://news.google.com/rss/articles/CBMizAFBVV95cUxNbjB0QWpQM3lLLVI3X0h6bkZjNWl2NGhMS0RNWHpPbXdicGJYM1BDc0llenN2ZDVlYTI5ZXYyZXZwRVp4YlEzU2hqekNaVWdybWE3X0V6eTNFcnRtVldyVmc5QVRCSUhpclJCclc5YzJwX2kxN0FIeFd2b2lCSkNxUUZ4TGJxWkFjSWNnT1ZiSkt1LWtuZU9ETVNkT3lyTjhRdXhaalQtN1hTbEcyQVVxUHBObHZ0azRIWWh1OTZsQVpCQVZ4T1JFRW5Bc1E?oc=5
+          - paragraph [ref=e309]: Alberta emergency departments strained responding to respiratory virus season My Lethbridge Now
+  - contentinfo [ref=e31]:
+    - contentinfo "Wait times disclaimer" [ref=e33]:
+      - generic [ref=e34]:
+        - paragraph [ref=e35]: Wait-times data is sourced from Alberta Health Services.
+        - paragraph [ref=e36]:
+          - text: The information provided on this website is for general information only. If you have questions or comments about the Wait Times website, please
+          - link "submit feedback" [ref=e37] [cursor=pointer]:
+            - /url: http://www.albertahealthservices.ca/about/Page12937.aspx
+          - text: or contact Wait Times Feedback at
+          - link "webcomm@ahs.ca" [ref=e38] [cursor=pointer]:
+            - /url: mailto:webcomm@ahs.ca
+          - text: .

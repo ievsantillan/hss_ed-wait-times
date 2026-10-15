@@ -90,8 +90,8 @@ function validateForm(form: FormState): string | null {
 function inputFromForm(form: FormState): FacilityInput {
   return {
     name: form.name.trim(),
-    region: form.region,
-    category: form.category.trim(),
+    region: form.region as FacilityInput['region'],
+    category: form.category.trim() as FacilityInput['category'],
     siteId: optionalText(form.siteId),
     address: optionalText(form.address),
     note: optionalText(form.note),
