@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented in this file.
 
+## v0.1.5 - October 15, 2026
+
+**Rayfin 1.36.2 upgrade**
+
+- Upgrade all `@microsoft/rayfin-*` packages from 1.33.2 to 1.36.2 (pinned exactly).
+- No app code changes required; build verified.
+
 ## v0.1.4 - July 24, 2026
 
 **Snapshot workflow resilience**
