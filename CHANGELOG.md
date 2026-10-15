@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented in this file.
 
+## v0.1.6 - October 15, 2026
+
+**Facility data-model constraints**
+
+- Constrain `Facility.region` and `Facility.category` with `@set(...)` so only the
+  region codes and `Emergency` / `Urgent Care` offered by the admin form are accepted.
+- Narrow `FacilityInput` types to match.
+
 ## v0.1.5 - October 15, 2026
 
 **Rayfin 1.36.2 upgrade**
